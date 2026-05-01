@@ -40,6 +40,15 @@
               "keepCardOrder": false
           }
       },
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 8,
+            "destination": "Life"
+          }
+        ]
+      },
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": true,
@@ -133,15 +142,6 @@
           "Monster",
           "Location"
         ],
-        "beforeGameStart": {
-          "initialBoardSetup": [
-            {
-              "drawFromTop": "deck",
-              "count": 8,
-              "destination": "Life"
-            }
-          ]
-        },
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
