@@ -8,7 +8,7 @@
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "",
+    "dataUrl": "https://russeus.github.io/Hellbreak-TCGA/Hellbreak-CardList.json",
     "cardBack": "https://cdn.imgchest.com/files/66f25545eeb4.png"
   },
   "deckBuilding": {
