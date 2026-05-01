@@ -130,8 +130,18 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Monster"
+          "Monster",
+          "Location"
         ],
+        "beforeGameStart": {
+          "initialBoardSetup": [
+            {
+              "drawFromTop": "deck",
+              "count": 8,
+              "destination": "Life"
+            }
+          ]
+        },
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
