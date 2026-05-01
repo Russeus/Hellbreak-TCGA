@@ -253,22 +253,6 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "Mana": {
-            "title": "Mana",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Ressources",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
           }
         }
       }
