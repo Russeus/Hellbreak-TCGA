@@ -1,0 +1,116 @@
+[
+{
+  "title": "Dracula - Demo Deck",
+  "id": "e1674656-ee94-4b3e-810a-bab6bea16796",
+  "cardCount": 43,
+  "createdAt": "2026-05-01T20:47:26.966Z",
+  "lastModifiedAt": "2026-05-01T20:52:23.742Z",
+  "game": "Hellbreak",
+  "format": [
+    "Demo"
+  ],
+  "deckList": {
+    "categoriesOrder": [
+      "Monster",
+      "Minion",
+      "Event",
+      "Asset",
+      "Location"
+    ],
+    "Monster": [
+      {
+        "count": 1,
+        "id": "D1"
+      }
+    ],
+    "Minion": [
+      {
+        "count": 2,
+        "id": "D33"
+      },
+      {
+        "count": 2,
+        "id": "D4"
+      },
+      {
+        "count": 2,
+        "id": "D11"
+      },
+      {
+        "count": 3,
+        "id": "D36"
+      },
+      {
+        "count": 1,
+        "id": "D19"
+      },
+      {
+        "count": 2,
+        "id": "D17"
+      },
+      {
+        "count": 3,
+        "id": "D13"
+      },
+      {
+        "count": 1,
+        "id": "D16"
+      },
+      {
+        "count": 2,
+        "id": "D39"
+      },
+      {
+        "count": 1,
+        "id": "D10"
+      },
+      {
+        "count": 1,
+        "id": "D6"
+      },
+      {
+        "count": 6,
+        "id": "D30"
+      },
+      {
+        "count": 3,
+        "id": "D9"
+      },
+      {
+        "count": 2,
+        "id": "D40"
+      }
+    ],
+    "Event": [
+      {
+        "count": 2,
+        "id": "D42"
+      },
+      {
+        "count": 2,
+        "id": "D26"
+      },
+      {
+        "count": 3,
+        "id": "D22"
+      }
+    ],
+    "Asset": [
+      {
+        "count": 2,
+        "id": "D21"
+      }
+    ],
+    "Location": [
+      {
+        "count": 1,
+        "id": "D2"
+      },
+      {
+        "count": 1,
+        "id": "D3"
+      }
+    ]
+  }
+}
+]
