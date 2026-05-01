@@ -1,0 +1,149 @@
+{
+  "name": "Hellbreak",
+  "menuBackgroundImage": "",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "",
+    "cardBack": "https://cdn.imgchest.com/files/66f25545eeb4.png"
+  },
+  "deckBuilding": {
+    "mainFilters": [],
+    "formats": [
+      {
+        "title": "Demo",
+        "gameplay": "Base",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Base": {
+      "mulligan": {
+        "info": "Mulligan up to 4. Those will be put at the bottom of your deck. Draw again until you have 4 cards.",
+        "startingHandSize": "4",
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": true,
+        "firstPlayerTokenName": "Initiative",
+        "drawPerTurn": "0"
+      },
+      "defaultNotes": "",
+      "tokens": [
+        {
+          "name": "Initiative",
+          "image": "https://cdn.imgchest.com/files/0efc45a6995e.jpg",
+          "isUnique": true,
+          "leavesAtEndOfTurn": false
+        }
+      ],
+      "countersStartingValues": [
+        "2"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "direction": "column",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Opp_Location",
+                      "style": false
+                    },
+                    {
+                      "section": "Minions_L",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "column",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Monster",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "column",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Minions_R",
+                      "style": false
+                    },
+                    {
+                      "section": "Minions_R",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Life",
+                  "style": false
+                },
+                {
+                  "section": "Assets",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Monster"
+        ],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Mana": {
+            "title": "Mana",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Ressources",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          }
+        }
+      }
+    }
+  }
+}

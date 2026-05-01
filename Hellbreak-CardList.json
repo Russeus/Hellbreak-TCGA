@@ -1,0 +1,345 @@
+{
+  "D1": {
+    "id": "D1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dracula, Transylvanian Terror",
+        "type": false,
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/fca103e6873e.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Dracula, Transylvanian Terror",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/e0818f641d13.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dracula, Transylvanian Terror",
+    "type": "Monster",
+    "cost": 0
+  },
+  "D2": {
+    "id": "D2",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Carfax Abbey",
+        "type": false,
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/45de33806bf3.jpg",
+        "isHorizontal": true
+      }
+    },
+    "name": "Carfax Abbey",
+    "type": "Location",
+    "cost": 0
+  },
+  "D3": {
+    "id": "D3",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Castle Dracula",
+        "type": false,
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/5a1c6781fbd6.jpg",
+        "isHorizontal": true
+      }
+    },
+    "name": "Castle Dracula",
+    "type": "Location",
+    "cost": 0
+  },
+  "D4": {
+    "id": "D4",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Bloodsucking Bat",
+        "type": false,
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/2d04b15479de.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bloodsucking Bat",
+    "type": "Minion",
+    "cost": 2
+  },
+  "D6": {
+    "id": "D6",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Renfield, Deranged Solicitor",
+        "type": false,
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/bebae763f723.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Renfield, Deranged Solicitor",
+    "type": "Minion",
+    "cost": 2
+  },
+  "D9": {
+    "id": "D9",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Transylvanian Wolf",
+        "type": false,
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/bac5bdafe0e2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Transylvanian Wolf",
+    "type": "Minion",
+    "cost": 2
+  },
+  "D10": {
+    "id": "D10",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mina Harker, The Count's Obsession",
+        "type": false,
+        "cost": 3,
+        "image": "https://cdn.imgchest.com/files/4c95dfcd9209.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mina Harker, The Count's Obsession",
+    "type": "Minion",
+    "cost": 3
+  },
+  "D11": {
+    "id": "D11",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Carpathian Wildcat",
+        "type": false,
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/1f1f497ebd9c.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Carpathian Wildcat",
+    "type": "Minion",
+    "cost": 4
+  },
+  "D13": {
+    "id": "D13",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ferocious Wolfpack",
+        "type": false,
+        "cost": 5,
+        "image": "https://cdn.imgchest.com/files/b034a317baa3.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ferocious Wolfpack",
+    "type": "Minion",
+    "cost": 5
+  },
+  "D16": {
+    "id": "D16",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lucy Weston, Back from the Dead",
+        "type": false,
+        "cost": 6,
+        "image": "https://cdn.imgchest.com/files/87329dc96574.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lucy Weston, Back from the Dead",
+    "type": "Minion",
+    "cost": 6
+  },
+  "D17": {
+    "id": "D17",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Countess Zaleska, Dracula's Daughter",
+        "type": false,
+        "cost": 7,
+        "image": "https://cdn.imgchest.com/files/c72093513a0c.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Countess Zaleska, Dracula's Daughter",
+    "type": "Minion",
+    "cost": 7
+  },
+  "D19": {
+    "id": "D19",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Count Alucard, Dracula's Son",
+        "type": false,
+        "cost": 8,
+        "image": "https://cdn.imgchest.com/files/ab74a69ef9f6.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Count Alucard, Dracula's Son",
+    "type": "Minion",
+    "cost": 8
+  },
+  "D21": {
+    "id": "D21",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Vampire's Coffin",
+        "type": "Asset",
+        "cost": 1,
+        "image": "https://cdn.imgchest.com/files/a01bd8301ac2.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Vampire's Coffin",
+    "type": "Asset",
+    "cost": 1
+  },
+  "D22": {
+    "id": "D22",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Drain Life",
+        "type": "Event",
+        "cost": 1,
+        "image": "https://cdn.imgchest.com/files/0699c3cf0058.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Drain Life",
+    "type": "Event",
+    "cost": 1
+  },
+  "D26": {
+    "id": "D26",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Coven Feast",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/2f6075bb38ed.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Coven Feast",
+    "type": "Event",
+    "cost": 2
+  },
+  "D30": {
+    "id": "D30",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Swarm of Rats",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/fbac78ef2ffc.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Swarm of Rats",
+    "type": "Minion",
+    "cost": 2
+  },
+  "D33": {
+    "id": "D33",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Aleera, Alluring Bride",
+        "type": "Minion",
+        "cost": 3,
+        "image": "https://cdn.imgchest.com/files/4fffd9982afa.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Aleera, Alluring Bride",
+    "type": "Minion",
+    "cost": 3
+  },
+  "D36": {
+    "id": "D36",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Carriage Driver",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/1aa8733c14fc.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Carriage Driver",
+    "type": "Minion",
+    "cost": 4
+  },
+  "D39": {
+    "id": "D39",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Marishka, Cunning Bride",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/52cada66ed78.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Marishka, Cunning Bride",
+    "type": "Minion",
+    "cost": 4
+  },
+  "D40": {
+    "id": "D40",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Verona, Bloodthirsty Bride",
+        "type": "Minion",
+        "cost": 5,
+        "image": "https://cdn.imgchest.com/files/0ec6efda0f9e.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Verona, Bloodthirsty Bride",
+    "type": "Minion",
+    "cost": 5
+  },
+  "D42": {
+    "id": "D42",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ancient Wisdom",
+        "type": "Event",
+        "cost": 3,
+        "image": "https://cdn.imgchest.com/files/a83a7ac04c6e.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ancient Wisdom",
+    "type": "Event",
+    "cost": 3
+  }
+}
