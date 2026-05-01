@@ -24,21 +24,11 @@
   "gameplay": {
     "Base": {
       "mulligan": {
-          "triggeredByButton": true,
-          "startingHandSize": 4,
-          "mulliganCount": {
-              "min": 0,
-              "max": 1
-          },
-          "mulliganCycle": {
-              "info": "Mulligan up to 4 cards. You will autodraw that many cards. GLHF!",
-              "steps": ["toBottom", "draw"],
-              "selectionRange": {
-                  "min": 0,
-                  "max": 4
-              },
-              "keepCardOrder": false
-          }
+        "info": "Mulligan up to 4. Those will be put at the bottom of your deck. Draw again until you have 4 cards.",
+        "startingHandSize": "4",
+        "drawNewHand": false,
+        "putSelectionAtBottom": true,
+        "drawNewSelectedCards": true
       },
       "beforeGameStart": {
         "initialBoardSetup": [
