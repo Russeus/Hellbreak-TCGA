@@ -99,7 +99,7 @@
                   "style": false,
                   "content": [
                     {
-                      "section": "Minions_R",
+                      "section": "Location",
                       "style": false
                     },
                     {
@@ -135,6 +135,32 @@
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
+          "Location": {
+              "isHidden": "opponent-only",
+              "height": "12",
+              "alignment": "CENTER",
+              "opponentAlignment": false,
+              "noAutoPayTo": true,
+              "isHorizontalAllowed": true,
+              "displayedTitle": "My Location",
+              "noQuickActions": true,
+              "enterTapped": false,
+              "enterSpun": false,
+              "isGroupForbidden": false,
+              "keepTappedNewTurn": false,
+              "showHiddenCardInHistory": false,
+              "cardStyle": {
+                  "marginTop": "-2vh"
+              },
+              "reverseZOrder": true,
+              "cardActionShortcut": {
+                  "action": "MOVE",
+                  "actionData": {
+                      "destination": "ExileHidden"
+                  },
+                  "image": "https://russeus.github.io/RB-TCG-Arena/Images/removeButton.png"
+              }
+          },
           "Mana": {
             "title": "Mana",
             "isHidden": "yes",
