@@ -311,6 +311,16 @@
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "https://cdn.imgchest.com/files/095c9c83b26e.png",
+                    "style": {
+                      "height": "auto",
+                      "width": "auto"
+                    }
+                  }
+                },
                 "Blood",
                 {
                   "type": "input-number",
@@ -338,6 +348,16 @@
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "https://cdn.imgchest.com/files/c4a20c0236b3.png",
+                    "style": {
+                      "height": "auto",
+                      "width": "auto"
+                    }
+                  }
+                },
                 "Malice",
                 {
                   "type": "input-number",
@@ -417,6 +437,16 @@
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "https://cdn.imgchest.com/files/851a7a69c484.png",
+                    "style": {
+                      "height": "auto",
+                      "width": "auto"
+                    }
+                  }
+                },
                 "Draw",
                 {
                   "type": "input-number",
