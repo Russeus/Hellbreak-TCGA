@@ -40,6 +40,15 @@
               "keepCardOrder": false
           }
       },
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 8,
+            "destination": "Life"
+          }
+        ]
+      },
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": true,
