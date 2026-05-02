@@ -305,7 +305,7 @@
                 "style": {
                   "width": "8rem"
                 },
-                "className": "position-absolute top-50 start-40 translate-middle box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "position-absolute top-50 start-50 translate-middle box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 "Blood",
