@@ -153,8 +153,8 @@
                 },
                 { "section": "Blood" },
                 { "section": "Malice" },
-                { "section": "Loyalty1" },
-                { "section": "Loyalty2" },
+                { "section": "Aspect1" },
+                { "section": "Aspect2" },
                 { "section": "Draw" },
                 {
                   "section": "Assets",
@@ -396,14 +396,14 @@
                 {
                   "type": "IMG",
                   "props": {
-                    "src": "{{ game.data.Blood.iconList[game.data.Blood.iconIndex] }}",
+                    "src": "{{ game.data.Aspect1.iconList[game.data.Aspect1.iconIndex] }}",
                     "style": {
                       "height": "auto",
                       "width": "auto",
                       "cursor": "pointer"
                     }
                   },
-                  "onClick": "game.data.Blood.iconIndex = (game.data.Blood.iconIndex + 1) % 6; chatLog('Cambiando icono...')"
+                  "onClick": "game.data.Aspect1.iconIndex = (game.data.Aspect1.iconIndex + 1) % 6; chatLog('Cambiando icono...')"
                 },
                 "Aspect A",
                 {
