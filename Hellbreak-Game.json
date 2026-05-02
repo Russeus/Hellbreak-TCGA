@@ -60,7 +60,7 @@
         0,
         0
       ],
-      "hideFacedDownCards": false,
+      "hideFacedDownCards": true,
       "sections": {
         "layout": {
           "direction": "column",
@@ -103,8 +103,9 @@
                     {
                       "section": "Monster",
                       "style": {
+                        "width": "20vh",
                         "position": "absolute",
-                        "top": "50%"
+                        "top": "24.5vh"
                       }
                     }
                   ],
