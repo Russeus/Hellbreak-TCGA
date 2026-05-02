@@ -24,7 +24,7 @@
   "gameplay": {
     "Base": {
       "mulligan": {
-          "triggeredByButton": true,
+          "triggeredByButton": false,
           "startingHandSize": 4,
           "mulliganCount": {
               "min": 0,
