@@ -151,6 +151,11 @@
                     "width": "35%"
                   }
                 },
+                { "section": "Blood" },
+                { "section": "Malice" },
+                { "section": "Loyalty1" },
+                { "section": "Loyalty2" },
+                { "section": "Draw" },
                 {
                   "section": "Assets",
                   "style": {
@@ -158,12 +163,7 @@
                     "right": "0",
                     "width": "35%"
                   }
-                },
-                { "section": "Blood" },
-                { "section": "Malice" },
-                { "section": "Loyalty1" },
-                { "section": "Loyalty2" },
-                { "section": "Draw" }
+                }
               ],
               "isSymetricalForOpponents": false
             }
