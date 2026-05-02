@@ -112,5 +112,111 @@
       }
     ]
   }
+},
+{
+  "title": "Jaws - Demo Deck",
+  "id": "fbc22a1f-80f5-4616-92b9-af6803c524d2",
+  "cardCount": 43,
+  "createdAt": "2026-05-02T03:35:08.711Z",
+  "lastModifiedAt": "2026-05-02T03:37:54.421Z",
+  "game": "Hellbreak",
+  "format": [
+    "Standard 1v1"
+  ],
+  "deckList": {
+    "categoriesOrder": [
+      "Monster",
+      "Minion",
+      "Event",
+      "Asset",
+      "Location"
+    ],
+    "Monster": [
+      {
+        "count": 1,
+        "id": "J1"
+      }
+    ],
+    "Minion": [
+      {
+        "count": 3,
+        "id": "J20"
+      },
+      {
+        "count": 2,
+        "id": "J4"
+      },
+      {
+        "count": 3,
+        "id": "J39"
+      },
+      {
+        "count": 1,
+        "id": "J42"
+      },
+      {
+        "count": 2,
+        "id": "J31"
+      },
+      {
+        "count": 3,
+        "id": "J22"
+      },
+      {
+        "count": 3,
+        "id": "J33"
+      },
+      {
+        "count": 3,
+        "id": "J25"
+      },
+      {
+        "count": 3,
+        "id": "J9"
+      },
+      {
+        "count": 3,
+        "id": "J28"
+      },
+      {
+        "count": 3,
+        "id": "J38"
+      },
+      {
+        "count": 3,
+        "id": "J8"
+      }
+    ],
+    "Event": [
+      {
+        "count": 2,
+        "id": "J18"
+      },
+      {
+        "count": 3,
+        "id": "J15"
+      },
+      {
+        "count": 1,
+        "id": "J43"
+      }
+    ],
+    "Asset": [
+      {
+        "count": 2,
+        "id": "J12"
+      }
+    ],
+    "Location": [
+      {
+        "count": 1,
+        "id": "J2"
+      },
+      {
+        "count": 1,
+        "id": "J3"
+      }
+    ]
+  }
 }
 ]
