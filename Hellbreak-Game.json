@@ -306,7 +306,7 @@
                 "style": {
                   "width": "8rem",
                   "transform": "translate(-105%, 50%)",
-                  "backgroundColor": "#6b2929"
+                  "backgroundColor": "#2f0000"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -343,7 +343,7 @@
                 "style": {
                   "width": "8rem",
                   "transform": "translate(5%, 50%)",
-                  "backgroundColor": "#3c6b29"
+                  "backgroundColor": "#052702"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -432,7 +432,7 @@
                 "style": {
                   "width": "8rem",
                   "transform": "translate(-50%, -60%)",
-                  "backgroundColor": "#424242"
+                  "backgroundColor": "#262626"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
