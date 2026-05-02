@@ -68,7 +68,6 @@
               "direction": "row",
               "style": false,
               "content": [
-                { "section": "FirstPlayer" },
                 {
                   "direction": "column",
                   "style": { "height": "24.25vh", "margin": "0.25vh" },
@@ -428,67 +427,7 @@
                 }
               ]
             }
-          },
-          "FirstPlayer": {
-              "type": "custom",
-              "blueprint": {
-                "type": "div",
-                "props": {
-                  "className": "position-absolute pe-none top-0 end-0 w-100",
-                  "style": {
-                    "paddingRight": "10vh",
-                    "marginTop": "-1vh"
-                  }
-                },
-                "children": [
-                  {
-                    "type": "div",
-                    "props": {
-                      "className": "position-relative ms-auto pe-auto shadow on-section-hovered",
-                      "style": {
-                        "height": "5vh",
-                        "width": "5vh",
-                        "translate": "-50%",
-                        "borderRadius": "50%",
-                        "backdropFilter": "blur(20px)"
-                      }
-                    },
-                    "children": [
-                      {
-                        "type": "img",
-                        "props": {
-                          "className": "h-100 w-100",
-                          "style": {
-                            "opacity": "{{game.data.FirstPlayer.enabled ? '1' : '0'}}"
-                          },
-                          "src": "https://cdn.imgchest.com/files/0efc45a6995e.jpg"
-                        }
-                      },
-                      {
-                        "type": "button",
-                        "props": {
-                          "className": "hovered-reveal position-absolute top-50 start-50 translate-middle opp-hidden",
-                          "style": {
-                            "display": "{{game.data.FirstPlayer.enabled ? 'none' : 'flex'}}"
-                          }
-                        },
-                        "onClick": "game.data.FirstPlayer.enabled = true; game.data.FirstPlayer.lastOwnerOrderPosition = game.turn.orderPosition; chatLog('has taken the first player token')",
-                        "children": "Take"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "defaultValue": {
-                "enabled": false,
-                "lastOwnerOrderPosition": -1
-              },
-              "events": {
-                "onStart": "if (game.turn.isMyTurn) { game.data.FirstPlayer = { enabled: true, lastOwnerOrderPosition: game.turn.orderPosition } }",
-                "onOpponentUpdate": "if (opponentGame.data.FirstPlayer.enabled) { game.data.FirstPlayer = { enabled: false, lastOwnerOrderPosition: opponentGame.turn.orderPosition } }",
-                "onNewTurn": "const newFirstPlayer = (game.data.FirstPlayer.lastOwnerOrderPosition + 1) % game.turn.totalPlayers; game.data.FirstPlayer = { enabled: newFirstPlayer === game.turn.orderPosition, lastOwnerOrderPosition: newFirstPlayer }"
-              }
-            }
+          }
         }
       }
     }
