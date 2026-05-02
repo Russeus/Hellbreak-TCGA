@@ -158,11 +158,11 @@
                     "right": "0",
                     "width": "35%"
                   }
-                }
+                },
+                { "section": "Blood" }
               ],
               "isSymetricalForOpponents": false
-            },
-            { "section": "Blood" }
+            }
           ]
         },
         "categoriesAlreadyOnBoard": [
@@ -302,7 +302,7 @@
                 "style": {
                   "width": "8rem"
                 },
-                "className": "position-absolute bottom-0 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "position-absolute top-50 start-50 translate-middle box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 "Blood",
