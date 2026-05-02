@@ -304,7 +304,7 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "8rem",
+                  "width": "10rem",
                   "transform": "translate(-105%, 50%)",
                   "backgroundColor": "#2f0000"
                 },
@@ -341,7 +341,7 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "8rem",
+                  "width": "10rem",
                   "transform": "translate(5%, 50%)",
                   "backgroundColor": "#052702"
                 },
@@ -387,7 +387,7 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "12rem",
+                  "width": "10rem",
                   "transform": "translate(-105%, 160%)"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
@@ -404,7 +404,7 @@
                       "display": "block"
                     }
                   },
-                  "onClick": "game.data.Aspect1.iconIndex = (game.data.Aspect1.iconIndex + 1) % 6; chatLog('Changed Aspect A icon...')"
+                  "onClick": "game.data.Aspect1.iconIndex = (game.data.Aspect1.iconIndex + 1) % 6)"
                 },
                 "Aspect A",
                 {
@@ -435,7 +435,7 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "12rem",
+                  "width": "10rem",
                   "transform": "translate(5%, 160%)"
                 },
                 "className": "position-absolute bot-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
@@ -452,7 +452,7 @@
                       "display": "block"
                     }
                   },
-                  "onClick": "game.data.Aspect2.iconIndex = (game.data.Aspect2.iconIndex + 1) % 6; chatLog('Changed Aspect B icon...')"
+                  "onClick": "game.data.Aspect2.iconIndex = (game.data.Aspect2.iconIndex + 1) % 6)"
                 },
                 "Aspect B",
                 {
@@ -474,11 +474,10 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "8rem",
-                  "transform": "translate(-50%, -60%)",
+                  "width": "10rem",
                   "backgroundColor": "#262626"
                 },
-                "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
