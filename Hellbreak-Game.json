@@ -300,9 +300,9 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "11rem"
+                  "width": "8rem"
                 },
-                "className": "position-absolute top-100 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "position-absolute bottom-0 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 "Blood",
