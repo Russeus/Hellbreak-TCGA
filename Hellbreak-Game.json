@@ -305,7 +305,7 @@
                 "style": {
                   "width": "8rem",
                   "transform": "translate(-105%, 0)",
-                  "backgroundColor": "#2b1919"
+                  "backgroundColor": "#6b2929"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -332,7 +332,7 @@
                 "style": {
                   "width": "8rem",
                   "transform": "translate(5%, 0)",
-                  "backgroundColor": "#192b1c"
+                  "backgroundColor": "#3c6b29"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },

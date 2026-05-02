@@ -341,5 +341,316 @@
     "name": "Ancient Wisdom",
     "type": "Event",
     "cost": 3
+  },
+  "J1": {
+    "id": "J1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Jaws, Scourge of Amity Island",
+        "type": false,
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/6c4250509bfe.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Jaws, Scourge of Amity Island",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/97a05767040d.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jaws, Scourge of Amity Island",
+    "type": "Monster",
+    "cost": 0
+  },
+  "J2": {
+    "id": "J2",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Amity Harbor",
+        "type": "Location",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/8fee30843458.jpg",
+        "isHorizontal": true
+      }
+    },
+    "name": "Amity Harbor",
+    "type": "Location",
+    "cost": 0
+  },
+  "J3": {
+    "id": "J3",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "North Beach",
+        "type": "Location",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/e738038ab406.jpg",
+        "isHorizontal": true
+      }
+    },
+    "name": "North Beach",
+    "type": "Location",
+    "cost": 0
+  },
+  "J4": {
+    "id": "J4",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Deputy Hendricks, In Over His Head",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/b7c6359abfe8.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Deputy Hendricks, In Over His Head",
+    "type": "Minion",
+    "cost": 2
+  },
+  "J8": {
+    "id": "J8",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Veteran Harpooner",
+        "type": "Minion",
+        "cost": 3,
+        "image": "https://cdn.imgchest.com/files/ea750cb48a78.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Veteran Harpooner",
+    "type": "Minion",
+    "cost": 3
+  },
+  "J9": {
+    "id": "J9",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Roughtail Stingray",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/5db53772c2ba.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Roughtail Stingray",
+    "type": "Minion",
+    "cost": 4
+  },
+  "J12": {
+    "id": "J12",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Orca, Timeworn Trawler",
+        "type": "Asset",
+        "cost": 1,
+        "image": "https://cdn.imgchest.com/files/2ac94854ff78.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Orca, Timeworn Trawler",
+    "type": "Asset",
+    "cost": 1
+  },
+  "J15": {
+    "id": "J15",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Narrow Escape",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/698e3f3c88f3.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Narrow Escape",
+    "type": "Event",
+    "cost": 2
+  },
+  "J18": {
+    "id": "J18",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "A Panic on Our Hands",
+        "type": "Event",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/b090670af5ca.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "A Panic on Our Hands",
+    "type": "Event",
+    "cost": 4
+  },
+  "J20": {
+    "id": "J20",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Barracuda",
+        "type": "Minion",
+        "cost": 1,
+        "image": "https://cdn.imgchest.com/files/75c650ed6dfd.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Barracuda",
+    "type": "Minion",
+    "cost": 1
+  },
+  "J22": {
+    "id": "J22",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Man O' War",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/469cddfea9c4.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Man O' War",
+    "type": "Minion",
+    "cost": 2
+  },
+  "J25": {
+    "id": "J25",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rogue Shark",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/1ce1a4ecbee7.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rogue Shark",
+    "type": "Minion",
+    "cost": 2
+  },
+  "J28": {
+    "id": "J28",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shark Spotter",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/5b6af826a906.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shark Spotter",
+    "type": "Minion",
+    "cost": 2
+  },
+  "J31": {
+    "id": "J31",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Larry Vaughn, Misguided Mayor",
+        "type": "Minion",
+        "cost": 3,
+        "image": "https://cdn.imgchest.com/files/d2f4bfd981b5.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Larry Vaughn, Misguided Mayor",
+    "type": "Minion",
+    "cost": 3
+  },
+  "J33": {
+    "id": "J33",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ravenous Predator",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/70729538e4d4.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ravenous Predator",
+    "type": "Minion",
+    "cost": 4
+  },
+  "J38": {
+    "id": "J38",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Threat From Below",
+        "type": "Minion",
+        "cost": 5,
+        "image": "https://cdn.imgchest.com/files/64d3cdc29ff0.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Threat From Below",
+    "type": "Minion",
+    "cost": 5
+  },
+  "J39": {
+    "id": "J39",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Giant Octopus",
+        "type": "Minion",
+        "cost": 8,
+        "image": "https://cdn.imgchest.com/files/21d0fb279a4a.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Giant Octopus",
+    "type": "Minion",
+    "cost": 8
+  },
+  "J42": {
+    "id": "J42",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Killer Whale",
+        "type": "Minion",
+        "cost": 8,
+        "image": "https://cdn.imgchest.com/files/ce45a292abfe.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Killer Whale",
+    "type": "Minion",
+    "cost": 8
+  },
+  "J43": {
+    "id": "J43",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shark!",
+        "type": "Event",
+        "cost": 1,
+        "image": "https://cdn.imgchest.com/files/2baeaad9aaed.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shark!",
+    "type": "Event",
+    "cost": 1
   }
 }
