@@ -155,7 +155,6 @@
                 { "section": "Malice" },
                 { "section": "Aspect1" },
                 { "section": "Aspect2" },
-                { "section": "Draw" },
                 {
                   "section": "Assets",
                   "style": {
@@ -166,7 +165,8 @@
                 }
               ],
               "isSymetricalForOpponents": false
-            }
+            },
+            { "section": "Draw" }
           ]
         },
         "categoriesAlreadyOnBoard": [
@@ -477,7 +477,7 @@
                   "width": "10rem",
                   "backgroundColor": "#262626"
                 },
-                "className": "top-50 left-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
