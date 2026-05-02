@@ -369,10 +369,19 @@
               ]
             }
           },
-          "Loyalty1": {
+          "Aspect1": {
             "type": "custom",
             "defaultValue": {
-              "counter_1": 1
+              "counter_1": 1,
+              "iconIndex": 0,
+              "iconList": [
+                "https://cdn.imgchest.com/files/cadaa66391ec.png",
+                "https://cdn.imgchest.com/files/84b128b76d5f.png",
+                "https://cdn.imgchest.com/files/7e551b5c58b0.png",
+                "https://cdn.imgchest.com/files/15f5c2eaa53d.png",
+                "https://cdn.imgchest.com/files/57df654db525.png",
+                "https://cdn.imgchest.com/files/48e070f00521.png"
+              ]
             },
             "blueprint": {
               "type": "div",
@@ -384,18 +393,30 @@
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
-                "Loyalty A",
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "{{ game.data.Blood.iconList[game.data.Blood.iconIndex] }}",
+                    "style": {
+                      "height": "auto",
+                      "width": "auto",
+                      "cursor": "pointer"
+                    }
+                  },
+                  "onClick": "game.data.Blood.iconIndex = (game.data.Blood.iconIndex + 1) % 6; chatLog('Cambiando icono...')"
+                },
+                "Aspect A",
                 {
                   "type": "input-number",
                   "props": {
-                    "value": "{{game.data.Loyalty1.counter_1}}"
+                    "value": "{{game.data.Aspect1.counter_1}}"
                   },
-                  "onChange": "game.data.Loyalty1.counter_1 = value; chatLog('Loyalty A counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                  "onChange": "game.data.Aspect1.counter_1 = value; chatLog('Aspect A counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
           },
-          "Loyalty2": {
+          "Aspect2": {
             "type": "custom",
             "defaultValue": {
               "counter_1": 0
@@ -410,13 +431,13 @@
                 "className": "position-absolute bot-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
-                "Loyalty B",
+                "Aspect B",
                 {
                   "type": "input-number",
                   "props": {
-                    "value": "{{game.data.Loyalty2.counter_1}}"
+                    "value": "{{game.data.Aspect2.counter_1}}"
                   },
-                  "onChange": "game.data.Loyalty2.counter_1 = value; chatLog('Loyalty B counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                  "onChange": "game.data.Aspect2.counter_1 = value; chatLog('Aspect B counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
