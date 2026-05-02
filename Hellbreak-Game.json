@@ -163,7 +163,8 @@
                 }
               ],
               "isSymetricalForOpponents": false
-            }
+            },
+            { "section": "Blood" }
           ]
         },
         "categoriesAlreadyOnBoard": [
@@ -220,7 +221,7 @@
           "Monster": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
-            "alignment": "END",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
@@ -286,11 +287,36 @@
             "isHorizontalAllowed": true,
             "displayedTitle": "Assets",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Blood": {
+            "type": "custom",
+            "defaultValue": {
+              "counter_1": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "width": "11rem"
+                },
+                "className": "position-absolute top-75 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+              },
+              "children": [
+                "Blood",
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{game.data.Demo.counter_1}}"
+                  },
+                  "onChange": "game.data.Demo.counter_1 = value; chatLog('counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                }
+              ]
+            }
           }
         }
       }
