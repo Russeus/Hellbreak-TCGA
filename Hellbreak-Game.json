@@ -304,7 +304,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(-105%, 0)"
+                  "transform": "translate(-110%, 0)"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -330,7 +330,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(105%, 0)"
+                  "transform": "translate(10%, 0)"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -356,7 +356,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(-105%, 105%)"
+                  "transform": "translate(-110%, 110%)"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -382,7 +382,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(105%, 105%)"
+                  "transform": "translate(10%, 110%)"
                 },
                 "className": "position-absolute bot-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
