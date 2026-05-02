@@ -387,7 +387,7 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "8rem",
+                  "width": "12rem",
                   "transform": "translate(-105%, 160%)"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
@@ -398,12 +398,13 @@
                   "props": {
                     "src": "{{ game.data.Aspect1.iconList[game.data.Aspect1.iconIndex] }}",
                     "style": {
-                      "height": "1.2rem",
+                      "height": "1.6rem",
                       "width": "auto",
-                      "cursor": "pointer"
+                      "cursor": "pointer",
+                      "display": "block"
                     }
                   },
-                  "onClick": "game.data.Aspect1.iconIndex = (game.data.Aspect1.iconIndex + 1) % 6; chatLog('Cambiando icono...')"
+                  "onClick": "game.data.Aspect1.iconIndex = (game.data.Aspect1.iconIndex + 1) % 6; chatLog('Changed Aspect A icon...')"
                 },
                 "Aspect A",
                 {
@@ -419,18 +420,40 @@
           "Aspect2": {
             "type": "custom",
             "defaultValue": {
-              "counter_1": 0
+              "counter_1": 0,
+              "iconIndex": 0,
+              "iconList": [
+                "https://cdn.imgchest.com/files/cadaa66391ec.png",
+                "https://cdn.imgchest.com/files/84b128b76d5f.png",
+                "https://cdn.imgchest.com/files/7e551b5c58b0.png",
+                "https://cdn.imgchest.com/files/15f5c2eaa53d.png",
+                "https://cdn.imgchest.com/files/57df654db525.png",
+                "https://cdn.imgchest.com/files/48e070f00521.png"
+              ]
             },
             "blueprint": {
               "type": "div",
               "props": {
                 "style": {
-                  "width": "8rem",
+                  "width": "12rem",
                   "transform": "translate(5%, 160%)"
                 },
                 "className": "position-absolute bot-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "{{ game.data.Aspect2.iconList[game.data.Aspect2.iconIndex] }}",
+                    "style": {
+                      "height": "1.6rem",
+                      "width": "auto",
+                      "cursor": "pointer",
+                      "display": "block"
+                    }
+                  },
+                  "onClick": "game.data.Aspect2.iconIndex = (game.data.Aspect2.iconIndex + 1) % 6; chatLog('Changed Aspect B icon...')"
+                },
                 "Aspect B",
                 {
                   "type": "input-number",
