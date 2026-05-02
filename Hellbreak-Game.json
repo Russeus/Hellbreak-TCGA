@@ -380,7 +380,7 @@
                 "style": {
                   "width": "8rem"
                 },
-                "className": "position-absolute top-80 start-60 translate-middle box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "position-absolute bot-10 start-50 translate-middle box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 "Loyalty 2",
