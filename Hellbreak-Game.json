@@ -304,7 +304,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(-100%, 200%)"
+                  "transform": "translate(-105%, 0)"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -329,7 +329,8 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "8rem"
+                  "width": "8rem",
+                  "transform": "translate(105%, 0)"
                 },
                 "className": "position-absolute top-50 start-50 translate-middle box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -354,7 +355,8 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "8rem"
+                  "width": "8rem",
+                  "transform": "translate(-105%, 105%)"
                 },
                 "className": "position-absolute top-50 start-50 translate-middle box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -379,7 +381,8 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "8rem"
+                  "width": "8rem",
+                  "transform": "translate(105%, 105%)"
                 },
                 "className": "position-absolute bot-50 start-50 translate-middle box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
