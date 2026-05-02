@@ -314,7 +314,7 @@
                   "props": {
                     "value": "{{game.data.Blood.counter_1}}"
                   },
-                  "onChange": "game.data.Blood.counter_1 = value; chatLog('counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                  "onChange": "game.data.Blood.counter_1 = value; chatLog('Blood counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
@@ -339,7 +339,7 @@
                   "props": {
                     "value": "{{game.data.Malice.counter_1}}"
                   },
-                  "onChange": "game.data.Malice.counter_1 = value; chatLog('counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                  "onChange": "game.data.Malice.counter_1 = value; chatLog('Malice counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
@@ -364,7 +364,7 @@
                   "props": {
                     "value": "{{game.data.Loyalty1.counter_1}}"
                   },
-                  "onChange": "game.data.Loyalty1.counter_1 = value; chatLog('counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                  "onChange": "game.data.Loyalty1.counter_1 = value; chatLog('Loyalty 1counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
@@ -389,7 +389,7 @@
                   "props": {
                     "value": "{{game.data.Loyalty2.counter_1}}"
                   },
-                  "onChange": "game.data.Loyalty2.counter_1 = value; chatLog('counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                  "onChange": "game.data.Loyalty2.counter_1 = value; chatLog('Loyalty 2 counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
