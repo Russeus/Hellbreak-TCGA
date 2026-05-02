@@ -404,7 +404,7 @@
                       "display": "block"
                     }
                   },
-                  "onClick": "game.data.Aspect1.iconIndex = (game.data.Aspect1.iconIndex + 1) % 6)"
+                  "onClick": "game.data.Aspect1.iconIndex = (game.data.Aspect1.iconIndex + 1) % 6;"
                 },
                 "Aspect A",
                 {
@@ -452,7 +452,7 @@
                       "display": "block"
                     }
                   },
-                  "onClick": "game.data.Aspect2.iconIndex = (game.data.Aspect2.iconIndex + 1) % 6)"
+                  "onClick": "game.data.Aspect2.iconIndex = (game.data.Aspect2.iconIndex + 1) % 6;"
                 },
                 "Aspect B",
                 {
@@ -475,9 +475,10 @@
               "props": {
                 "style": {
                   "width": "10rem",
+                  "transform": "translate(-50%, -60%)",
                   "backgroundColor": "#262626"
                 },
-                "className": "top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
