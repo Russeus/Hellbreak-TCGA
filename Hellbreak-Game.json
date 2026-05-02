@@ -305,7 +305,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(-105%, -50%)",
+                  "transform": "translate(-105%, 50%)",
                   "backgroundColor": "#6b2929"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
@@ -332,7 +332,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(5%, -50%)",
+                  "transform": "translate(5%, 50%)",
                   "backgroundColor": "#3c6b29"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
@@ -359,7 +359,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(-105%, 60%)"
+                  "transform": "translate(-105%, 160%)"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -385,7 +385,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(5%, 60%)"
+                  "transform": "translate(5%, 160%)"
                 },
                 "className": "position-absolute bot-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -411,7 +411,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(-50%, -170%)",
+                  "transform": "translate(-50%, -60%)",
                   "backgroundColor": "#424242"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
