@@ -398,7 +398,7 @@
                   "props": {
                     "src": "{{ game.data.Aspect1.iconList[game.data.Aspect1.iconIndex] }}",
                     "style": {
-                      "height": "auto",
+                      "height": "1.2rem",
                       "width": "auto",
                       "cursor": "pointer"
                     }
