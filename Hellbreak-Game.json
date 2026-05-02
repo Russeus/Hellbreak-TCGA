@@ -162,7 +162,8 @@
                 { "section": "Blood" },
                 { "section": "Malice" },
                 { "section": "Loyalty1" },
-                { "section": "Loyalty2" }
+                { "section": "Loyalty2" },
+                { "section": "Draw" }
               ],
               "isSymetricalForOpponents": false
             }
@@ -297,7 +298,7 @@
           "Blood": {
             "type": "custom",
             "defaultValue": {
-              "counter_1": 0
+              "counter_1": 2
             },
             "blueprint": {
               "type": "div",
@@ -396,6 +397,33 @@
                     "value": "{{game.data.Loyalty2.counter_1}}"
                   },
                   "onChange": "game.data.Loyalty2.counter_1 = value; chatLog('Loyalty B counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                }
+              ]
+            }
+          },
+          "Draw": {
+            "type": "custom",
+            "defaultValue": {
+              "counter_1": 2
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "width": "8rem",
+                  "transform": "translate(-50%, 220%)",
+                  "backgroundColor": "#424242"
+                },
+                "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+              },
+              "children": [
+                "Draw",
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{game.data.Draw.counter_1}}"
+                  },
+                  "onChange": "game.data.Draw.counter_1 = value; chatLog('Draw counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
