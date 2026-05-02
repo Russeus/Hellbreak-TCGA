@@ -411,7 +411,7 @@
               "props": {
                 "style": {
                   "width": "8rem",
-                  "transform": "translate(-50%, -110%)",
+                  "transform": "translate(-50%, -170%)",
                   "backgroundColor": "#424242"
                 },
                 "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
