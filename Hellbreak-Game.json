@@ -151,6 +151,11 @@
                     "width": "35%"
                   }
                 },
+                { "section": "Blood" },
+                { "section": "Malice" },
+                { "section": "Aspect1" },
+                { "section": "Aspect2" },
+                { "section": "Draw" },
                 {
                   "section": "Assets",
                   "style": {
@@ -161,12 +166,7 @@
                 }
               ],
               "isSymetricalForOpponents": false
-            },
-            { "section": "Blood" },
-            { "section": "Malice" },
-            { "section": "Aspect1" },
-            { "section": "Aspect2" },
-            { "section": "Draw" }
+            }
           ]
         },
         "categoriesAlreadyOnBoard": [
