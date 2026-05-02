@@ -69,9 +69,6 @@
               "style": false,
               "content": [
                 {
-                  "section": "FirstPlayer"
-                },
-                {
                   "direction": "column",
                   "style": { "height": "24.25vh", "margin": "0.25vh" },
                   "content": [
@@ -166,7 +163,8 @@
                 { "section": "Malice" },
                 { "section": "Loyalty1" },
                 { "section": "Loyalty2" },
-                { "section": "Draw" }
+                { "section": "Draw" },
+                { "section": "FirstPlayer" }
               ],
               "isSymetricalForOpponents": false
             }
