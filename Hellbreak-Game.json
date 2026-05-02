@@ -68,6 +68,7 @@
               "direction": "row",
               "style": false,
               "content": [
+                { "section": "FirstPlayer" },
                 {
                   "direction": "column",
                   "style": { "height": "24.25vh", "margin": "0.25vh" },
@@ -163,8 +164,7 @@
                 { "section": "Malice" },
                 { "section": "Loyalty1" },
                 { "section": "Loyalty2" },
-                { "section": "Draw" },
-                { "section": "FirstPlayer" }
+                { "section": "Draw" }
               ],
               "isSymetricalForOpponents": false
             }
@@ -461,7 +461,7 @@
                           "style": {
                             "opacity": "{{game.data.FirstPlayer.enabled ? '1' : '0'}}"
                           },
-                          "src": "https://valcur.github.io/TCG-Arena-Altered/Images/Assets/first-player.png"
+                          "src": "https://cdn.imgchest.com/files/0efc45a6995e.jpg"
                         }
                       },
                       {
