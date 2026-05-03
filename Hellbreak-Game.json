@@ -173,7 +173,8 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center"
+                        "justifyContent": "center",
+                        "translate": "0 -2vh"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -184,7 +185,8 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center"
+                        "justifyContent": "center",
+                        "translate": "0 -2vh"
                       },
                       "content": [
                         { "section": "Aspect1" },
