@@ -310,9 +310,10 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#2f0000"
+                  "backgroundColor": "#2f0000",
+                  "marginTop": "1vh"
                 },
-                "className": "top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -346,9 +347,10 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#052702"
+                  "backgroundColor": "#052702",
+                  "marginTop": "1vh"
                 },
-                "className": "top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -390,9 +392,10 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem"
+                  "width": "10rem",
+                  "marginTop": "5vh"
                 },
-                "className": "top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -437,9 +440,10 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem"
+                  "width": "10rem",
+                  "marginTop": "5vh"
                 },
-                "className": "top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -478,7 +482,7 @@
                   "width": "10rem",
                   "backgroundColor": "#262626"
                 },
-                "className": "top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
