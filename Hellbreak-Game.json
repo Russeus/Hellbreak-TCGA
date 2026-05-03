@@ -157,14 +157,13 @@
                 {
                   "direction": "column",
                   "style": {
-                    "marginTop": "-5vh"
+                    "marginTop": "-4vh"
                   },
                   "content": [
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "marginTop": "-1vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Draw" }
@@ -175,7 +174,7 @@
                       "direction": "row",
                       "style": {
                         "justifyContent": "center",
-                        "marginTop": "-1vh"
+                        "marginTop": "-4vh"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -186,7 +185,8 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center"
+                        "justifyContent": "center",
+                        "marginTop": "-4vh"
                       },
                       "content": [
                         { "section": "Aspect1" },
