@@ -193,7 +193,7 @@
                       "isSymetricalForOpponents": false
                     }
                   ],
-                  "isSymetricalForOpponents": true
+                  "isSymetricalForOpponents": false
                 },
                 {
                   "direction": "column",
