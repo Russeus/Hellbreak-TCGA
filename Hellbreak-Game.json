@@ -160,7 +160,10 @@
                   "content": [
                     {
                       "direction": "row",
-                      "style": false,
+                      "style": {
+                        "justifyContent": "center",
+                        "height": "6vh"
+                      },
                       "content": [
                         { "section": "Draw" }
                       ],
@@ -168,7 +171,10 @@
                     },
                     {
                       "direction": "row",
-                      "style": false,
+                      "style": {
+                        "justifyContent": "center",
+                        "height": "6vh"
+                      },
                       "content": [
                         { "section": "Blood" },
                         { "section": "Malice" }
@@ -177,7 +183,10 @@
                     },
                     {
                       "direction": "row",
-                      "style": false,
+                      "style": {
+                        "justifyContent": "center",
+                        "height": "6vh"
+                      },
                       "content": [
                         { "section": "Aspect1" },
                         { "section": "Aspect2" }
