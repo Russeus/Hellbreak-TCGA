@@ -156,7 +156,7 @@
                 },
                 {
                   "direction": "column",
-                  "style": "false",
+                  "style": false,
                   "content": [
                     {
                       "direction": "row",
