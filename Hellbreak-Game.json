@@ -1,6 +1,6 @@
 {
   "name": "Hellbreak",
-  "menuBackgroundImage": "https://cdn.imgchest.com/files/4ba72b436f5f.png",
+  "menuBackgroundImage": "https://cdn.imgchest.com/files/4bc25e47fdb5.png",
   "defaultRessources": {
     "backgrounds": [],
     "decksUrl": "https://russeus.github.io/Hellbreak-TCGA/Hellbreak-Decks.json"
@@ -162,7 +162,7 @@
                       "direction": "row",
                       "style": {
                         "justifyContent": "center",
-                        "height": "6vh"
+                        "height": "3vh"
                       },
                       "content": [
                         { "section": "Draw" }
@@ -173,7 +173,7 @@
                       "direction": "row",
                       "style": {
                         "justifyContent": "center",
-                        "height": "6vh"
+                        "height": "3vh"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -185,7 +185,7 @@
                       "direction": "row",
                       "style": {
                         "justifyContent": "center",
-                        "height": "6vh"
+                        "height": "3vh"
                       },
                       "content": [
                         { "section": "Aspect1" },
