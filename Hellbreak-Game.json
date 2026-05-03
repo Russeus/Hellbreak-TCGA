@@ -165,7 +165,7 @@
                   }
                 }
               ],
-              "isSymetricalForOpponents": false
+              "isSymetricalForOpponents": true
             }
           ]
         },
