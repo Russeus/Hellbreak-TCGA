@@ -484,7 +484,8 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#262626"
+                  "backgroundColor": "#262626",
+                  "transform": "translateY(-3vh)"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
