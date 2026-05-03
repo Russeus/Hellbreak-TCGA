@@ -476,7 +476,7 @@
                 "style": {
                   "width": "10rem"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
