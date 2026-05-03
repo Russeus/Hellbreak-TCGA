@@ -195,7 +195,7 @@
                       "isSymetricalForOpponents": false
                     }
                   ],
-                  "isSymetricalForOpponents": false
+                  "isSymetricalForOpponents": true
                 },
                 {
                   "direction": "column",
