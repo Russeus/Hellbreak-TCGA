@@ -312,7 +312,7 @@
                   "width": "10rem",
                   "backgroundColor": "#2f0000",
                   "position": "relative",
-                  "margin": "0 -4rem",
+                  "margin": "0 2rem 0 -8rem",
                   "transform": "translateY(2vh)"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
@@ -351,7 +351,7 @@
                   "width": "10rem",
                   "backgroundColor": "#052702",
                   "position": "relative",
-                  "margin": "0 -4rem",
+                  "margin": "0 -8rem 0 2rem",
                   "transform": "translateY(2vh)"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
