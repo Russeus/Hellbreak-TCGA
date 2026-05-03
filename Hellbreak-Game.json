@@ -158,7 +158,7 @@
                   "direction": "column",
                   "style": {
                     "marginTop": "-4vh",
-                    "gap": "-2vh"
+                    "gap": "0.5vh"
                   },
                   "content": [
                     {
