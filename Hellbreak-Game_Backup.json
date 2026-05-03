@@ -141,7 +141,12 @@
             },
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "display": "flex",
+                "justifyContent": "center",
+                "gap": "1vh",
+                "width": "100%"
+              },
               "content": [
                 {
                   "section": "Life",
@@ -305,10 +310,12 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "transform": "translate(-105%, 50%)",
-                  "backgroundColor": "#2f0000"
+                  "backgroundColor": "#2f0000",
+                  "position": "relative",
+                  "margin": "0 2rem 0 -8rem",
+                  "transform": "translateY(2vh)"
                 },
-                "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -342,10 +349,12 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "transform": "translate(5%, 50%)",
-                  "backgroundColor": "#052702"
+                  "backgroundColor": "#052702",
+                  "position": "relative",
+                  "margin": "0 -8rem 0 2rem",
+                  "transform": "translateY(2vh)"
                 },
-                "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -388,9 +397,11 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "transform": "translate(-105%, 160%)"
+                  "position": "relative",
+                  "margin": "0 -4rem",
+                  "transform": "translateY(7vh)"
                 },
-                "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -436,9 +447,11 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "transform": "translate(5%, 160%)"
+                  "position": "relative",
+                  "margin": "0 -4rem",
+                  "transform": "translateY(7vh)"
                 },
-                "className": "position-absolute bot-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -475,10 +488,11 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "transform": "translate(-50%, -60%)",
-                  "backgroundColor": "#262626"
+                  "backgroundColor": "#262626",
+                  "margin": "0 -4rem",
+                  "transform": "translateY(-3vh)"
                 },
-                "className": "position-absolute top-50 start-50 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
