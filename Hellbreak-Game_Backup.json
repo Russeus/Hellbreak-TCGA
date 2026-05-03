@@ -1,6 +1,6 @@
 {
   "name": "Hellbreak",
-  "menuBackgroundImage": "",
+  "menuBackgroundImage": "https://cdn.imgchest.com/files/4ba72b436f5f.png",
   "defaultRessources": {
     "backgrounds": [],
     "decksUrl": "https://russeus.github.io/Hellbreak-TCGA/Hellbreak-Decks.json"
@@ -310,10 +310,7 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#2f0000",
-                  "position": "relative",
-                  "margin": "0 2rem 0 -8rem",
-                  "transform": "translateY(2vh)"
+                  "backgroundColor": "#2f0000"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -349,10 +346,7 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#052702",
-                  "position": "relative",
-                  "margin": "0 -8rem 0 2rem",
-                  "transform": "translateY(2vh)"
+                  "backgroundColor": "#052702"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -396,10 +390,7 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem",
-                  "position": "relative",
-                  "margin": "0 -4rem",
-                  "transform": "translateY(7vh)"
+                  "width": "10rem"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -446,10 +437,7 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem",
-                  "position": "relative",
-                  "margin": "0 -4rem",
-                  "transform": "translateY(7vh)"
+                  "width": "10rem"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -488,9 +476,7 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#262626",
-                  "margin": "0 -4rem",
-                  "transform": "translateY(-3vh)"
+                  "backgroundColor": "#262626"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
