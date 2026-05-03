@@ -1,6 +1,6 @@
 {
   "name": "Hellbreak",
-  "menuBackgroundImage": "https://cdn.imgchest.com/files/4ba72b436f5f.png",
+  "menuBackgroundImage": "https://cdn.imgchest.com/files/4bc25e47fdb5.png",
   "defaultRessources": {
     "backgrounds": [],
     "decksUrl": "https://russeus.github.io/Hellbreak-TCGA/Hellbreak-Decks.json"
@@ -141,36 +141,75 @@
             },
             {
               "direction": "row",
-              "style": {
-                "display": "flex",
-                "justifyContent": "center",
-                "gap": "1vh",
-                "width": "100%"
-              },
+              "style": false,
               "content": [
                 {
-                  "section": "Life",
-                  "style": {
-                    "position": "absolute",
-                    "left": "0",
-                    "width": "35%"
-                  }
+                  "direction": "column",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Life",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
                 },
-                { "section": "Blood" },
-                { "section": "Malice" },
-                { "section": "Aspect1" },
-                { "section": "Aspect2" },
-                { "section": "Draw" },
                 {
-                  "section": "Assets",
+                  "direction": "column",
                   "style": {
-                    "position": "absolute",
-                    "right": "0",
-                    "width": "35%"
-                  }
+                    "marginTop": "-4vh"
+                  },
+                  "content": [
+                    {
+                      "direction": "row",
+                      "style": {
+                        "justifyContent": "center"
+                      },
+                      "content": [
+                        { "section": "Draw" }
+                      ],
+                      "isSymetricalForOpponents": false
+                    },
+                    {
+                      "direction": "row",
+                      "style": {
+                        "justifyContent": "center",
+                        "translate": "0 -1vh"
+                      },
+                      "content": [
+                        { "section": "Blood" },
+                        { "section": "Malice" }
+                      ],
+                      "isSymetricalForOpponents": false
+                    },
+                    {
+                      "direction": "row",
+                      "style": {
+                        "justifyContent": "center",
+                        "translate": "0 -1vh"
+                      },
+                      "content": [
+                        { "section": "Aspect1" },
+                        { "section": "Aspect2" }
+                      ],
+                      "isSymetricalForOpponents": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "column",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Assets",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
                 }
               ],
-              "isSymetricalForOpponents": true
+              "isSymetricalForOpponents": false
             }
           ]
         },
@@ -310,7 +349,8 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#2f0000"
+                  "backgroundColor": "#2f0000",
+                  "marginTop": "-2vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -346,7 +386,8 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#052702"
+                  "backgroundColor": "#052702",
+                  "marginTop": "-2vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -390,7 +431,8 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem"
+                  "width": "10rem",
+                  "marginTop": "-2vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -437,7 +479,8 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem"
+                  "width": "10rem",
+                  "marginTop": "-2vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },

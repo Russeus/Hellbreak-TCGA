@@ -173,8 +173,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "translate": "0 -1vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -185,8 +184,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "translate": "0 -1vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Aspect1" },
@@ -349,10 +347,9 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#2f0000",
-                  "marginTop": "-2vh"
+                  "backgroundColor": "#2f0000"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -386,10 +383,9 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#052702",
-                  "marginTop": "-2vh"
+                  "backgroundColor": "#052702"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -431,10 +427,9 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem",
-                  "marginTop": "-2vh"
+                  "width": "10rem"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -479,8 +474,7 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem",
-                  "marginTop": "-2vh"
+                  "width": "10rem"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -521,7 +515,7 @@
                   "width": "10rem",
                   "backgroundColor": "#262626"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
