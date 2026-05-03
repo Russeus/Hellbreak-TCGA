@@ -157,8 +157,7 @@
                 {
                   "direction": "column",
                   "style": {
-                    "marginTop": "-4vh",
-                    "gap": "0.5vh"
+                    "marginTop": "-4vh"
                   },
                   "content": [
                     {
@@ -174,7 +173,8 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center"
+                        "justifyContent": "center",
+                        "translate": "0 -1vh"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -185,7 +185,8 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center"
+                        "justifyContent": "center",
+                        "translate": "0 -1vh"
                       },
                       "content": [
                         { "section": "Aspect1" },
