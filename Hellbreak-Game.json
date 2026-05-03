@@ -161,8 +161,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "height": "3vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Draw" }
@@ -172,8 +171,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "height": "3vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -184,8 +182,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "height": "3vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Aspect1" },
