@@ -173,8 +173,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "marginTop": "-7vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -185,8 +184,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "marginTop": "-7vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Aspect1" },
@@ -349,7 +347,8 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#2f0000"
+                  "backgroundColor": "#2f0000",
+                  "marginTop": "-2vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -385,7 +384,8 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#052702"
+                  "backgroundColor": "#052702",
+                  "marginTop": "-2vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -429,7 +429,8 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem"
+                  "width": "10rem",
+                  "marginTop": "-2vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -476,7 +477,8 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem"
+                  "width": "10rem",
+                  "marginTop": "-2vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
