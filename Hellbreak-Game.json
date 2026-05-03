@@ -174,7 +174,7 @@
                       "direction": "row",
                       "style": {
                         "justifyContent": "center",
-                        "marginTop": "-4vh"
+                        "marginTop": "-7vh"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -186,7 +186,7 @@
                       "direction": "row",
                       "style": {
                         "justifyContent": "center",
-                        "marginTop": "-4vh"
+                        "marginTop": "-7vh"
                       },
                       "content": [
                         { "section": "Aspect1" },
