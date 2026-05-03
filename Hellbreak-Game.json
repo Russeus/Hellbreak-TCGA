@@ -312,7 +312,7 @@
                   "width": "10rem",
                   "backgroundColor": "#2f0000",
                   "position": "relative",
-                  "left": "-5rem",
+                  "left": "-2rem",
                   "marginTop": "1vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
@@ -351,7 +351,7 @@
                   "width": "10rem",
                   "backgroundColor": "#052702",
                   "position": "relative",
-                  "right": "-5rem",
+                  "left": "2rem",
                   "marginTop": "1vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
@@ -398,8 +398,8 @@
                 "style": {
                   "width": "10rem",
                   "position": "relative",
-                  "left": "-15rem",
-                  "marginTop": "5vh"
+                  "left": "-8rem",
+                  "marginTop": "6vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
@@ -448,8 +448,8 @@
                 "style": {
                   "width": "10rem",
                   "position": "relative",
-                  "right": "-15rem",
-                  "marginTop": "5vh"
+                  "left": "0rem",
+                  "marginTop": "6vh"
                 },
                 "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
