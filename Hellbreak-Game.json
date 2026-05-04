@@ -157,7 +157,8 @@
                 {
                   "direction": "column",
                   "style": {
-                    "height": "5vh"
+                    "height": "10vh",
+                    "marginTop": "-3vh"
                   },
                   "content": [
                     {
@@ -349,7 +350,7 @@
                   "width": "10rem",
                   "backgroundColor": "#2f0000"
                 },
-                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -385,7 +386,7 @@
                   "width": "10rem",
                   "backgroundColor": "#052702"
                 },
-                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -429,7 +430,7 @@
                 "style": {
                   "width": "10rem"
                 },
-                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -476,7 +477,7 @@
                 "style": {
                   "width": "10rem"
                 },
-                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -515,7 +516,7 @@
                   "width": "10rem",
                   "backgroundColor": "#262626"
                 },
-                "className": "m-0 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
