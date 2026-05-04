@@ -271,8 +271,8 @@
           "Monster": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": "END",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "Monster",
@@ -282,7 +282,7 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
-            "reverseZOrder": false
+            "reverseZOrder": true
           },
           "Minions_L": {
             "isHidden": "no",
