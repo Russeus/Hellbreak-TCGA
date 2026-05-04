@@ -2,7 +2,10 @@
   "name": "Hellbreak",
   "menuBackgroundImage": "https://cdn.imgchest.com/files/4bc25e47fdb5.png",
   "defaultRessources": {
-    "backgrounds": [],
+    "backgrounds": [
+      "https://cdn.imgchest.com/files/1f73d960d2f7.jpg",
+      "https://cdn.imgchest.com/files/5a73be06285a.jpg"
+    ],
     "decksUrl": "https://russeus.github.io/Hellbreak-TCGA/Hellbreak-Decks.json"
   },
   "customHelp": "",
@@ -268,7 +271,7 @@
           "Monster": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "END",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
