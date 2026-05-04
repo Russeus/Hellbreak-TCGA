@@ -68,8 +68,6 @@
               "direction": "row",
               "style": false,
               "content": [
-                { "section": "Malice_L"},
-                { "section": "Malice_R"},
                 {
                   "direction": "column",
                   "style": { "height": "24.25vh", "margin": "0.25vh" },
@@ -96,6 +94,8 @@
                   ],
                   "isSymetricalForOpponents": false
                 },
+                { "section": "Malice_L"},
+                { "section": "Malice_R"},
                 {
                   "direction": "column",
                   "style": {
@@ -554,7 +554,7 @@
                   "width": "10rem",
                   "backgroundColor": "#052702"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container position-absolute top-0 start-0 align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -590,7 +590,7 @@
                   "width": "10rem",
                   "backgroundColor": "#052702"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "box-container position-absolute top-0 end-0 align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
