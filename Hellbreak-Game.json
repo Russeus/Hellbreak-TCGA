@@ -156,7 +156,9 @@
                 },
                 {
                   "direction": "column",
-                  "style": false,
+                  "style": {
+                    "height": "5vh"
+                  },
                   "content": [
                     {
                       "direction": "row",
