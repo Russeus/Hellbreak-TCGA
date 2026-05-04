@@ -271,8 +271,8 @@
           "Monster": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": true,
+            "alignment": "START",
+            "opponentAlignment": "END",
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "Monster",
