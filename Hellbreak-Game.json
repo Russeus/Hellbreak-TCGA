@@ -68,6 +68,8 @@
               "direction": "row",
               "style": false,
               "content": [
+                { "section": "Malice_L"},
+                { "section": "Malice_R"},
                 {
                   "direction": "column",
                   "style": { "height": "24.25vh", "margin": "0.25vh" },
@@ -157,8 +159,8 @@
                 {
                   "direction": "column",
                   "style": {
-                    "height": "10vh",
-                    "marginTop": "-3vh"
+                    "marginTop": "-6vh",
+                    "justifyContent":"center"
                   },
                   "content": [
                     {
@@ -536,6 +538,78 @@
                     "value": "{{game.data.Draw.counter_1}}"
                   },
                   "onChange": "game.data.Draw.counter_1 = value; chatLog('Draw counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                }
+              ]
+            }
+          },
+          "Malice_L": {
+            "type": "custom",
+            "defaultValue": {
+              "counter_1": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "width": "10rem",
+                  "backgroundColor": "#052702"
+                },
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+              },
+              "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "https://cdn.imgchest.com/files/c4a20c0236b3.png",
+                    "style": {
+                      "height": "auto",
+                      "width": "auto"
+                    }
+                  }
+                },
+                "Malice",
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{game.data.Malice.counter_1}}"
+                  },
+                  "onChange": "game.data.Malice.counter_1 = value; chatLog('Location Malice counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                }
+              ]
+            }
+          },
+          "Malice_R": {
+            "type": "custom",
+            "defaultValue": {
+              "counter_1": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "width": "10rem",
+                  "backgroundColor": "#052702"
+                },
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+              },
+              "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "https://cdn.imgchest.com/files/c4a20c0236b3.png",
+                    "style": {
+                      "height": "auto",
+                      "width": "auto"
+                    }
+                  }
+                },
+                "Malice",
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{game.data.Malice.counter_1}}"
+                  },
+                  "onChange": "game.data.Malice.counter_1 = value; chatLog('Location Malice counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
