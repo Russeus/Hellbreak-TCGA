@@ -68,14 +68,6 @@
               "direction": "row",
               "style": false,
               "content": [
-                { "section": "Malice_L"},
-                { "section": "Malice_R"}
-              ]
-            },
-            {
-              "direction": "row",
-              "style": false,
-              "content": [
                 {
                   "direction": "column",
                   "style": { "height": "24.25vh", "margin": "0.25vh" },
@@ -217,7 +209,9 @@
                 }
               ],
               "isSymetricalForOpponents": false
-            }
+            },
+            { "section": "Malice_L"},
+            { "section": "Malice_R"}
           ]
         },
         "categoriesAlreadyOnBoard": [
