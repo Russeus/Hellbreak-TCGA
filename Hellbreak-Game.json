@@ -109,6 +109,13 @@
                         "position": "absolute",
                         "top": "0"
                       }
+                    },
+                    {
+                      "section": "Vault",
+                        "style": {
+                            "height": "12vh",
+                            "scale": "0.68"
+                        }
                     }
                   ],
                   "isSymetricalForOpponents": false
@@ -283,6 +290,21 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "reverseZOrder": true
+          },
+          "Vault": {
+            "isHidden": "no",
+            "height": "12",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Vault",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Minions_L": {
             "isHidden": "no",
