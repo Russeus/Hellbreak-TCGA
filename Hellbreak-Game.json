@@ -106,15 +106,14 @@
                     {
                       "section": "Monster",
                       "style": {
-                        "position": "absolute",
-                        "top": "0"
+                        "position": "relative",
+                        "height": "12vh"
                       }
                     },
                     {
                       "section": "Vault",
                         "style": {
-                            "height": "12vh",
-                            "scale": "0.68"
+                            "height": "12vh"
                         }
                     }
                   ],
@@ -277,7 +276,7 @@
           },
           "Monster": {
             "isHidden": "opponent-only",
-            "height": "MEDIUM",
+            "height": "12",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
