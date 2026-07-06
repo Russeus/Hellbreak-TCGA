@@ -2,7 +2,14 @@
   "name": "Hellbreak",
   "menuBackgroundImage": "https://cdn.imgchest.com/files/4bc25e47fdb5.png",
   "defaultRessources": {
-    "backgrounds": [],
+    "backgrounds": [
+      "https://cdn.imgchest.com/files/1f73d960d2f7.jpg",
+      "https://cdn.imgchest.com/files/7697e57c64da.png",
+      "https://cdn.imgchest.com/files/1d22b68cd986.png",
+      "https://cdn.imgchest.com/files/08ca3ec2213f.png",
+      "https://cdn.imgchest.com/files/bfb06c97b603.png",
+      "https://cdn.imgchest.com/files/2e126b0c3acb.png"
+    ],
     "decksUrl": "https://russeus.github.io/Hellbreak-TCGA/Hellbreak-Decks.json"
   },
   "customHelp": "",
@@ -157,7 +164,8 @@
                 {
                   "direction": "column",
                   "style": {
-                    "marginTop": "-4vh"
+                    "marginTop": "-6vh",
+                    "justifyContent":"center"
                   },
                   "content": [
                     {
@@ -173,8 +181,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "translate": "0 -1vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Blood" },
@@ -185,8 +192,7 @@
                     {
                       "direction": "row",
                       "style": {
-                        "justifyContent": "center",
-                        "translate": "0 -1vh"
+                        "justifyContent": "center"
                       },
                       "content": [
                         { "section": "Aspect1" },
@@ -210,7 +216,9 @@
                 }
               ],
               "isSymetricalForOpponents": false
-            }
+            },
+            { "section": "Malice_L"},
+            { "section": "Malice_R"}
           ]
         },
         "categoriesAlreadyOnBoard": [
@@ -277,7 +285,8 @@
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "reverseZOrder": true
           },
           "Minions_L": {
             "isHidden": "no",
@@ -349,10 +358,9 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#2f0000",
-                  "marginTop": "-2vh"
+                  "backgroundColor": "#2f0000"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -386,10 +394,9 @@
               "props": {
                 "style": {
                   "width": "10rem",
-                  "backgroundColor": "#052702",
-                  "marginTop": "-2vh"
+                  "backgroundColor": "#052702"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -431,10 +438,9 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem",
-                  "marginTop": "-2vh"
+                  "width": "10rem"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -479,10 +485,9 @@
               "type": "div",
               "props": {
                 "style": {
-                  "width": "10rem",
-                  "marginTop": "-2vh"
+                  "width": "10rem"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -521,7 +526,7 @@
                   "width": "10rem",
                   "backgroundColor": "#262626"
                 },
-                "className": "box-container align-items-center text-nowrap gap-1 p-1 ps-2"
+                "className": "m-1 box-container align-items-center text-nowrap gap-1 p-1 ps-2"
               },
               "children": [
                 {
@@ -541,6 +546,78 @@
                     "value": "{{game.data.Draw.counter_1}}"
                   },
                   "onChange": "game.data.Draw.counter_1 = value; chatLog('Draw counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                }
+              ]
+            }
+          },
+          "Malice_L": {
+            "type": "custom",
+            "defaultValue": {
+              "counter_1": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "width": "10rem",
+                  "backgroundColor": "#052702"
+                },
+                "className": "box-container position-absolute top-0 start-0 align-items-center text-nowrap gap-1 p-1 ps-2"
+              },
+              "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "https://cdn.imgchest.com/files/c4a20c0236b3.png",
+                    "style": {
+                      "height": "auto",
+                      "width": "auto"
+                    }
+                  }
+                },
+                "Malice",
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{game.data.Malice_L.counter_1}}"
+                  },
+                  "onChange": "game.data.Malice_L.counter_1 = value; chatLog('Location Malice counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
+                }
+              ]
+            }
+          },
+          "Malice_R": {
+            "type": "custom",
+            "defaultValue": {
+              "counter_1": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "width": "10rem",
+                  "backgroundColor": "#052702"
+                },
+                "className": "box-container position-absolute top-0 end-0 align-items-center text-nowrap gap-1 p-1 ps-2"
+              },
+              "children": [
+                {
+                  "type": "IMG",
+                  "props": {
+                    "src": "https://cdn.imgchest.com/files/c4a20c0236b3.png",
+                    "style": {
+                      "height": "auto",
+                      "width": "auto"
+                    }
+                  }
+                },
+                "Malice",
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{game.data.Malice_R.counter_1}}"
+                  },
+                  "onChange": "game.data.Malice_R.counter_1 = value; chatLog('Location Malice counter is now at ' + value + ` (`+ (delta > 0 ? `+` + delta : delta) + ')')"
                 }
               ]
             }
