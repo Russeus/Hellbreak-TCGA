@@ -5,7 +5,7 @@
     "face": {
       "front": {
         "name": "Dracula, Transylvanian Terror",
-        "type": false,
+        "type": "Monster",
         "cost": 0,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Dracula_TT_Lurking.jpg",
         "isHorizontal": false
@@ -28,7 +28,7 @@
     "face": {
       "front": {
         "name": "Carfax Abbey",
-        "type": false,
+        "type": "Monster",
         "cost": 0,
         "image": "https://cdn.imgchest.com/files/8f9f72d3bbee.png",
         "isHorizontal": true
@@ -44,7 +44,7 @@
     "face": {
       "front": {
         "name": "Castle Dracula",
-        "type": false,
+        "type": "Location",
         "cost": 0,
         "image": "https://cdn.imgchest.com/files/a45904338f24.png",
         "isHorizontal": true
@@ -60,7 +60,7 @@
     "face": {
       "front": {
         "name": "Bloodsucking Bat",
-        "type": false,
+        "type": "Minion",
         "cost": 2,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/BloodsuckingBat.jpg",
         "isHorizontal": false
@@ -76,7 +76,7 @@
     "face": {
       "front": {
         "name": "Renfield, Deranged Solicitor",
-        "type": false,
+        "type": "Minion",
         "cost": 2,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/RenField.jpg",
         "isHorizontal": false
@@ -92,7 +92,7 @@
     "face": {
       "front": {
         "name": "Transylvanian Wolf",
-        "type": false,
+        "type": "Minion",
         "cost": 2,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TransylvanianWolf.jpg",
         "isHorizontal": false
@@ -102,13 +102,29 @@
     "type": "Minion",
     "cost": 2
   },
+  "DOT-031": {
+    "id": "DOT-031",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Deathstalker Scorpion",
+        "type": "Minion",
+        "cost": 3,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/DeathstalkerScorpion.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Deathstalker Scorpion",
+    "type": "Minion",
+    "cost": 3
+  },
   "DOT-032": {
     "id": "DOT-032",
     "isToken": false,
     "face": {
       "front": {
         "name": "Mina Harker, The Count's Obsession",
-        "type": false,
+        "type": "Minion",
         "cost": 3,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/MinaSeward.jpg",
         "isHorizontal": false
@@ -124,7 +140,7 @@
     "face": {
       "front": {
         "name": "Carpathian Wildcat",
-        "type": false,
+        "type": "Minion",
         "cost": 4,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/CarpathianWildcat.jpg",
         "isHorizontal": false
@@ -140,7 +156,7 @@
     "face": {
       "front": {
         "name": "Ferocious Wolfpack",
-        "type": false,
+        "type": "Minion",
         "cost": 5,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/FerociousWolfpack.jpg",
         "isHorizontal": false
@@ -156,7 +172,7 @@
     "face": {
       "front": {
         "name": "Lucy Weston, Back from the Dead",
-        "type": false,
+        "type": "Minion",
         "cost": 6,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/LucyWeston.jpg",
         "isHorizontal": false
@@ -172,7 +188,7 @@
     "face": {
       "front": {
         "name": "Countess Zaleska, Dracula's Daughter",
-        "type": false,
+        "type": "Minion",
         "cost": 7,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/CountessZaleska.jpg",
         "isHorizontal": false
@@ -188,7 +204,7 @@
     "face": {
       "front": {
         "name": "Count Alucard, Dracula's Son",
-        "type": false,
+        "type": "Minion",
         "cost": 8,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/CountAlucard.jpg",
         "isHorizontal": false
@@ -348,7 +364,7 @@
     "face": {
       "front": {
         "name": "Jaws, Scourge of Amity Island",
-        "type": false,
+        "type": "Monster",
         "cost": 0,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Jaws_Scourge_Lurking.jpg",
         "isHorizontal": false
@@ -362,6 +378,29 @@
       }
     },
     "name": "Jaws, Scourge of Amity Island",
+    "type": "Monster",
+    "cost": 0
+  },
+  "DOT-008": {
+    "id": "DOT-008",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "The Bride, Kissed by Lightning",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TheBride_KBL_Lurking.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Jaws, Scourge of Amity Island",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TheBride_KBL_Unleashed.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Bride, Kissed by Lightning",
     "type": "Monster",
     "cost": 0
   },
@@ -649,8 +688,184 @@
         "isHorizontal": false
       }
     },
-    "name": "Shark!",
+    "name": "Shark in the Pond",
     "type": "Event",
     "cost": 1
+  },
+  "DOT-145": {
+    "id": "DOT-145",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Black Widow",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/BlackWidow.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Black Widow",
+    "type": "Minion",
+    "cost": 2
+  },
+  "DOT-148": {
+    "id": "DOT-148",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Karl, Vile Henchman",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Karl.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Karl, Vile Henchman",
+    "type": "Minion",
+    "cost": 2
+  },
+  "DOT-149": {
+    "id": "DOT-149",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ludwig, Dastardly Goon",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Ludwig.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ludwig, Dastardly Goon",
+    "type": "Minion",
+    "cost": 2
+  },
+  "DOT-153": {
+    "id": "DOT-153",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Bloodhound",
+        "type": "Minion",
+        "cost": 3,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Bloodhound.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bloodhound",
+    "type": "Minion",
+    "cost": 3
+  },
+  "DOT-157": {
+    "id": "DOT-157",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Strange Apparition",
+        "type": "Minion",
+        "cost": 3,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/StrangeApparition.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Strange Apparition",
+    "type": "Minion",
+    "cost": 3
+  },
+  "DOT-160": {
+    "id": "DOT-160",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kennelmaster",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Kennelmaster.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kennelmaster",
+    "type": "Minion",
+    "cost": 4
+  },
+  "DOT-158": {
+    "id": "DOT-158",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Body Snatcher",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/BodySnatcher.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Body Snatcher",
+    "type": "Minion",
+    "cost": 4
+  },
+  "DOT-163": {
+    "id": "DOT-163",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gothic Gargoyle",
+        "type": "Minion",
+        "cost": 5,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/GothicGargoyle.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gothic Gargoyle",
+    "type": "Minion",
+    "cost": 5
+  },
+  "DOT-168": {
+    "id": "DOT-168",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Angry Mob",
+        "type": "Minion",
+        "cost": 7,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/AngryMob.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Angry Mob",
+    "type": "Minion",
+    "cost": 7
+  },
+  "DOT-176": {
+    "id": "DOT-176",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Cosmic Ray Diffuser",
+        "type": "Asset",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Cosmic_Ray_Diffuser.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cosmic Ray Diffuser",
+    "type": "Asset",
+    "cost": 2
+  },
+  "DOT-179": {
+    "id": "DOT-179",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Piercing Scream",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/PiercingScream.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Piercing Scream",
+    "type": "Event",
+    "cost": 2
   }
 }
