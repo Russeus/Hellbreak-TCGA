@@ -108,10 +108,7 @@
                   },
                   "content": [
                     {
-                      "section": "Monster",
-                      "style": {
-                        
-                      }
+                      "section": "Monster"
                     },
                     {
                       "direction": "row",
@@ -174,7 +171,6 @@
                 {
                   "direction": "column",
                   "style": {
-                    "marginTop": "-6vh",
                     "justifyContent":"center"
                   },
                   "content": [
@@ -184,7 +180,7 @@
                         "justifyContent": "center"
                       },
                       "content": [
-                        { "section": "Draw" }
+                        { "section": "Vault" }
                       ],
                       "isSymetricalForOpponents": false
                     },
@@ -195,7 +191,8 @@
                       },
                       "content": [
                         { "section": "Aspect1" },
-                        { "section": "Aspect2" }
+                        { "section": "Aspect2" },
+                        { "section": "Draw" }
                       ],
                       "isSymetricalForOpponents": false
                     }
@@ -227,6 +224,25 @@
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
+          "Vault": {
+              "isHidden": "no",
+              "height": "12",
+              "alignment": "CENTER",
+              "opponentAlignment": false,
+              "noAutoPayTo": true,
+              "isHorizontalAllowed": true,
+              "displayedTitle": "Vault",
+              "noQuickActions": true,
+              "enterTapped": false,
+              "enterSpun": false,
+              "isGroupForbidden": false,
+              "keepTappedNewTurn": false,
+              "showHiddenCardInHistory": false,
+              "cardStyle": {
+                  "marginTop": "-2vh"
+              },
+              "reverseZOrder": true
+          },
           "Location": {
               "isHidden": "opponent-only",
               "height": "12",
