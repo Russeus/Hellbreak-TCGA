@@ -22,6 +22,68 @@
     "type": "Monster",
     "cost": 0
   },
+  "DOT-006": {
+    "id": "DOT-006",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Jaws, Scourge of Amity Island",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Jaws_Scourge_Lurking.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Jaws, Scourge of Amity Island",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Jaws_Scourge_Unleashed.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jaws, Scourge of Amity Island",
+    "type": "Monster",
+    "cost": 0
+  },
+  "DOT-008": {
+    "id": "DOT-008",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "The Bride, Kissed by Lightning",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TheBride_KBL_Lurking.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Jaws, Scourge of Amity Island",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TheBride_KBL_Unleashed.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Bride, Kissed by Lightning",
+    "type": "Monster",
+    "cost": 0
+  },
+  "DOT-013": {
+    "id": "DOT-013",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Amity Harbor",
+        "type": "Location",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/7c44daadf03e.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Amity Harbor",
+    "type": "Location",
+    "cost": 0
+  },
   "DOT-015": {
     "id": "DOT-015",
     "isToken": false,
@@ -51,6 +113,22 @@
       }
     },
     "name": "Castle Dracula",
+    "type": "Location",
+    "cost": 0
+  },
+  "DOT-020": {
+    "id": "DOT-020",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "North Beach",
+        "type": "Location",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/8189c1cb7611.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "North Beach",
     "type": "Location",
     "cost": 0
   },
@@ -261,180 +339,6 @@
     "name": "Coven Feast",
     "type": "Event",
     "cost": 2
-  },
-  "DOT-151": {
-    "id": "DOT-151",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Swarm of Rats",
-        "type": "Minion",
-        "cost": 2,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/SwarmOfRats.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Swarm of Rats",
-    "type": "Minion",
-    "cost": 2
-  },
-  "DOT-152": {
-    "id": "DOT-152",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Aleera, Alluring Bride",
-        "type": "Minion",
-        "cost": 3,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Aleera_11d9656c-9c3b-46e4-80bb-bf6220b8d1df.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Aleera, Alluring Bride",
-    "type": "Minion",
-    "cost": 3
-  },
-  "DOT-159": {
-    "id": "DOT-159",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Carriage Driver",
-        "type": "Minion",
-        "cost": 4,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/CarriageDriver.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Carriage Driver",
-    "type": "Minion",
-    "cost": 4
-  },
-  "DOT-161": {
-    "id": "DOT-161",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Marishka, Cunning Bride",
-        "type": "Minion",
-        "cost": 4,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Marishka.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Marishka, Cunning Bride",
-    "type": "Minion",
-    "cost": 4
-  },
-  "DOT-165": {
-    "id": "DOT-165",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Verona, Bloodthirsty Bride",
-        "type": "Minion",
-        "cost": 5,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Verona.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Verona, Bloodthirsty Bride",
-    "type": "Minion",
-    "cost": 5
-  },
-  "DOT-180": {
-    "id": "DOT-180",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ancient Wisdom",
-        "type": "Event",
-        "cost": 3,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/AncientWisdom.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ancient Wisdom",
-    "type": "Event",
-    "cost": 3
-  },
-  "DOT-006": {
-    "id": "DOT-006",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Jaws, Scourge of Amity Island",
-        "type": "Monster",
-        "cost": 0,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Jaws_Scourge_Lurking.jpg",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "Jaws, Scourge of Amity Island",
-        "type": "Monster",
-        "cost": 0,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Jaws_Scourge_Unleashed.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Jaws, Scourge of Amity Island",
-    "type": "Monster",
-    "cost": 0
-  },
-  "DOT-008": {
-    "id": "DOT-008",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "The Bride, Kissed by Lightning",
-        "type": "Monster",
-        "cost": 0,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TheBride_KBL_Lurking.jpg",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "Jaws, Scourge of Amity Island",
-        "type": "Monster",
-        "cost": 0,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TheBride_KBL_Unleashed.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "The Bride, Kissed by Lightning",
-    "type": "Monster",
-    "cost": 0
-  },
-  "DOT-013": {
-    "id": "DOT-013",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Amity Harbor",
-        "type": "Location",
-        "cost": 0,
-        "image": "https://cdn.imgchest.com/files/7c44daadf03e.png",
-        "isHorizontal": true
-      }
-    },
-    "name": "Amity Harbor",
-    "type": "Location",
-    "cost": 0
-  },
-  "DOT-020": {
-    "id": "DOT-020",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "North Beach",
-        "type": "Location",
-        "cost": 0,
-        "image": "https://cdn.imgchest.com/files/8189c1cb7611.png",
-        "isHorizontal": true
-      }
-    },
-    "name": "North Beach",
-    "type": "Location",
-    "cost": 0
   },
   "DOT-068": {
     "id": "DOT-068",
@@ -740,6 +644,38 @@
     "type": "Minion",
     "cost": 2
   },
+  "DOT-151": {
+    "id": "DOT-151",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Swarm of Rats",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/SwarmOfRats.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Swarm of Rats",
+    "type": "Minion",
+    "cost": 2
+  },
+  "DOT-152": {
+    "id": "DOT-152",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Aleera, Alluring Bride",
+        "type": "Minion",
+        "cost": 3,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Aleera_11d9656c-9c3b-46e4-80bb-bf6220b8d1df.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Aleera, Alluring Bride",
+    "type": "Minion",
+    "cost": 3
+  },
   "DOT-153": {
     "id": "DOT-153",
     "isToken": false,
@@ -772,22 +708,6 @@
     "type": "Minion",
     "cost": 3
   },
-  "DOT-160": {
-    "id": "DOT-160",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Kennelmaster",
-        "type": "Minion",
-        "cost": 4,
-        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Kennelmaster.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Kennelmaster",
-    "type": "Minion",
-    "cost": 4
-  },
   "DOT-158": {
     "id": "DOT-158",
     "isToken": false,
@@ -804,6 +724,54 @@
     "type": "Minion",
     "cost": 4
   },
+  "DOT-159": {
+    "id": "DOT-159",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Carriage Driver",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/CarriageDriver.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Carriage Driver",
+    "type": "Minion",
+    "cost": 4
+  },
+  "DOT-160": {
+    "id": "DOT-160",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kennelmaster",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Kennelmaster.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kennelmaster",
+    "type": "Minion",
+    "cost": 4
+  },
+  "DOT-161": {
+    "id": "DOT-161",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Marishka, Cunning Bride",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Marishka.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Marishka, Cunning Bride",
+    "type": "Minion",
+    "cost": 4
+  },
   "DOT-163": {
     "id": "DOT-163",
     "isToken": false,
@@ -817,6 +785,22 @@
       }
     },
     "name": "Gothic Gargoyle",
+    "type": "Minion",
+    "cost": 5
+  },
+  "DOT-165": {
+    "id": "DOT-165",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Verona, Bloodthirsty Bride",
+        "type": "Minion",
+        "cost": 5,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Verona.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Verona, Bloodthirsty Bride",
     "type": "Minion",
     "cost": 5
   },
@@ -867,5 +851,21 @@
     "name": "Piercing Scream",
     "type": "Event",
     "cost": 2
+  },
+  "DOT-180": {
+    "id": "DOT-180",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ancient Wisdom",
+        "type": "Event",
+        "cost": 3,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/AncientWisdom.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ancient Wisdom",
+    "type": "Event",
+    "cost": 3
   }
 }
