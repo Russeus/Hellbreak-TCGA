@@ -83,7 +83,7 @@
                       "section": "Opp_Location",
                         "style": {
                             "width": "30vh",
-                            "height": "12vh",
+                            "height": "11vh",
                             "scale": "0.68",
                             "position": "absolute",
                             "top": "0",
@@ -132,7 +132,7 @@
                       "section": "Location",
                         "style": {
                             "width": "30vh",
-                            "height": "12vh",
+                            "height": "11vh",
                             "scale": "0.68",
                             "position": "absolute",
                             "top": "0",
@@ -245,7 +245,7 @@
           },
           "Location": {
               "isHidden": "opponent-only",
-              "height": "12",
+              "height": "11",
               "alignment": "CENTER",
               "opponentAlignment": false,
               "noAutoPayTo": true,
@@ -271,7 +271,7 @@
           },
           "Opp_Location": {
             "isHidden": "no",
-            "height": "12",
+            "height": "11",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
