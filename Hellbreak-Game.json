@@ -238,9 +238,6 @@
               "isGroupForbidden": false,
               "keepTappedNewTurn": false,
               "showHiddenCardInHistory": false,
-              "cardStyle": {
-                  "marginTop": "-2vh"
-              },
               "reverseZOrder": true
           },
           "Location": {
