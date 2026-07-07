@@ -1,6 +1,6 @@
 {
-  "D1": {
-    "id": "D1",
+  "DOT-001": {
+    "id": "DOT-001",
     "isToken": false,
     "face": {
       "front": {
@@ -22,8 +22,8 @@
     "type": "Monster",
     "cost": 0
   },
-  "D2": {
-    "id": "D2",
+  "DOT-015": {
+    "id": "DOT-015",
     "isToken": false,
     "face": {
       "front": {
@@ -38,8 +38,8 @@
     "type": "Location",
     "cost": 0
   },
-  "D3": {
-    "id": "D3",
+  "DOT-016": {
+    "id": "DOT-016",
     "isToken": false,
     "face": {
       "front": {
@@ -54,8 +54,8 @@
     "type": "Location",
     "cost": 0
   },
-  "D4": {
-    "id": "D4",
+  "DOT-025": {
+    "id": "DOT-025",
     "isToken": false,
     "face": {
       "front": {
@@ -70,8 +70,8 @@
     "type": "Minion",
     "cost": 2
   },
-  "D6": {
-    "id": "D6",
+  "DOT-027": {
+    "id": "DOT-027",
     "isToken": false,
     "face": {
       "front": {
@@ -86,8 +86,8 @@
     "type": "Minion",
     "cost": 2
   },
-  "D9": {
-    "id": "D9",
+  "DOT-028": {
+    "id": "DOT-028",
     "isToken": false,
     "face": {
       "front": {
@@ -102,8 +102,8 @@
     "type": "Minion",
     "cost": 2
   },
-  "D10": {
-    "id": "D10",
+  "DOT-032": {
+    "id": "DOT-032",
     "isToken": false,
     "face": {
       "front": {
@@ -118,8 +118,8 @@
     "type": "Minion",
     "cost": 3
   },
-  "D11": {
-    "id": "D11",
+  "DOT-034": {
+    "id": "DOT-034",
     "isToken": false,
     "face": {
       "front": {
@@ -134,8 +134,8 @@
     "type": "Minion",
     "cost": 4
   },
-  "D13": {
-    "id": "D13",
+  "DOT-039": {
+    "id": "DOT-039",
     "isToken": false,
     "face": {
       "front": {
@@ -150,8 +150,8 @@
     "type": "Minion",
     "cost": 5
   },
-  "D16": {
-    "id": "D16",
+  "DOT-040": {
+    "id": "DOT-040",
     "isToken": false,
     "face": {
       "front": {
@@ -166,8 +166,8 @@
     "type": "Minion",
     "cost": 6
   },
-  "D17": {
-    "id": "D17",
+  "DOT-042": {
+    "id": "DOT-042",
     "isToken": false,
     "face": {
       "front": {
@@ -182,8 +182,8 @@
     "type": "Minion",
     "cost": 7
   },
-  "D19": {
-    "id": "D19",
+  "DOT-044": {
+    "id": "DOT-044",
     "isToken": false,
     "face": {
       "front": {
@@ -198,8 +198,8 @@
     "type": "Minion",
     "cost": 8
   },
-  "D21": {
-    "id": "D21",
+  "DOT-049": {
+    "id": "DOT-049",
     "isToken": false,
     "face": {
       "front": {
@@ -214,8 +214,8 @@
     "type": "Asset",
     "cost": 1
   },
-  "D22": {
-    "id": "D22",
+  "DOT-052": {
+    "id": "DOT-052",
     "isToken": false,
     "face": {
       "front": {
@@ -230,8 +230,8 @@
     "type": "Event",
     "cost": 1
   },
-  "D26": {
-    "id": "D26",
+  "DOT-053": {
+    "id": "DOT-053",
     "isToken": false,
     "face": {
       "front": {
@@ -246,8 +246,8 @@
     "type": "Event",
     "cost": 2
   },
-  "D30": {
-    "id": "D30",
+  "DOT-151": {
+    "id": "DOT-151",
     "isToken": false,
     "face": {
       "front": {
@@ -262,8 +262,8 @@
     "type": "Minion",
     "cost": 2
   },
-  "D33": {
-    "id": "D33",
+  "DOT-152": {
+    "id": "DOT-152",
     "isToken": false,
     "face": {
       "front": {
@@ -278,8 +278,8 @@
     "type": "Minion",
     "cost": 3
   },
-  "D36": {
-    "id": "D36",
+  "DOT-159": {
+    "id": "DOT-159",
     "isToken": false,
     "face": {
       "front": {
@@ -294,8 +294,8 @@
     "type": "Minion",
     "cost": 4
   },
-  "D39": {
-    "id": "D39",
+  "DOT-161": {
+    "id": "DOT-161",
     "isToken": false,
     "face": {
       "front": {
@@ -310,8 +310,8 @@
     "type": "Minion",
     "cost": 4
   },
-  "D40": {
-    "id": "D40",
+  "DOT-165": {
+    "id": "DOT-165",
     "isToken": false,
     "face": {
       "front": {
@@ -326,8 +326,8 @@
     "type": "Minion",
     "cost": 5
   },
-  "D42": {
-    "id": "D42",
+  "DOT-180": {
+    "id": "DOT-180",
     "isToken": false,
     "face": {
       "front": {
@@ -342,22 +342,22 @@
     "type": "Event",
     "cost": 3
   },
-  "J1": {
-    "id": "J1",
+  "DOT-006": {
+    "id": "DOT-006",
     "isToken": false,
     "face": {
       "front": {
         "name": "Jaws, Scourge of Amity Island",
         "type": false,
         "cost": 0,
-        "image": "https://cdn.imgchest.com/files/6c4250509bfe.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Jaws_Scourge_Lurking.jpg",
         "isHorizontal": false
       },
       "back": {
         "name": "Jaws, Scourge of Amity Island",
         "type": "Monster",
         "cost": 0,
-        "image": "https://cdn.imgchest.com/files/97a05767040d.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Jaws_Scourge_Unleashed.jpg",
         "isHorizontal": false
       }
     },
@@ -365,15 +365,15 @@
     "type": "Monster",
     "cost": 0
   },
-  "J2": {
-    "id": "J2",
+  "DOT-013": {
+    "id": "DOT-013",
     "isToken": false,
     "face": {
       "front": {
         "name": "Amity Harbor",
         "type": "Location",
         "cost": 0,
-        "image": "https://cdn.imgchest.com/files/8fee30843458.jpg",
+        "image": "https://cdn.imgchest.com/files/7c44daadf03e.png",
         "isHorizontal": true
       }
     },
@@ -381,15 +381,15 @@
     "type": "Location",
     "cost": 0
   },
-  "J3": {
-    "id": "J3",
+  "DOT-020": {
+    "id": "DOT-020",
     "isToken": false,
     "face": {
       "front": {
         "name": "North Beach",
         "type": "Location",
         "cost": 0,
-        "image": "https://cdn.imgchest.com/files/e738038ab406.jpg",
+        "image": "https://cdn.imgchest.com/files/8189c1cb7611.png",
         "isHorizontal": true
       }
     },
@@ -397,15 +397,15 @@
     "type": "Location",
     "cost": 0
   },
-  "J4": {
-    "id": "J4",
+  "DOT-068": {
+    "id": "DOT-068",
     "isToken": false,
     "face": {
       "front": {
         "name": "Deputy Hendricks, In Over His Head",
         "type": "Minion",
         "cost": 2,
-        "image": "https://cdn.imgchest.com/files/b7c6359abfe8.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/DeputyHendricks.jpg",
         "isHorizontal": false
       }
     },
@@ -413,15 +413,15 @@
     "type": "Minion",
     "cost": 2
   },
-  "J8": {
-    "id": "J8",
+  "DOT-076": {
+    "id": "DOT-076",
     "isToken": false,
     "face": {
       "front": {
         "name": "Veteran Harpooner",
         "type": "Minion",
         "cost": 3,
-        "image": "https://cdn.imgchest.com/files/ea750cb48a78.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/VeteranHarpooner.jpg",
         "isHorizontal": false
       }
     },
@@ -429,15 +429,15 @@
     "type": "Minion",
     "cost": 3
   },
-  "J9": {
-    "id": "J9",
+  "DOT-080": {
+    "id": "DOT-080",
     "isToken": false,
     "face": {
       "front": {
         "name": "Roughtail Stingray",
         "type": "Minion",
         "cost": 4,
-        "image": "https://cdn.imgchest.com/files/5db53772c2ba.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/RoughtailStingray.jpg",
         "isHorizontal": false
       }
     },
@@ -445,15 +445,15 @@
     "type": "Minion",
     "cost": 4
   },
-  "J12": {
-    "id": "J12",
+  "DOT-092": {
+    "id": "DOT-092",
     "isToken": false,
     "face": {
       "front": {
         "name": "Orca, Timeworn Trawler",
         "type": "Asset",
         "cost": 1,
-        "image": "https://cdn.imgchest.com/files/2ac94854ff78.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Orca.jpg",
         "isHorizontal": false
       }
     },
@@ -461,15 +461,15 @@
     "type": "Asset",
     "cost": 1
   },
-  "J15": {
-    "id": "J15",
+  "DOT-098": {
+    "id": "DOT-098",
     "isToken": false,
     "face": {
       "front": {
         "name": "Narrow Escape",
         "type": "Event",
         "cost": 2,
-        "image": "https://cdn.imgchest.com/files/698e3f3c88f3.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/NarrowEscape.jpg",
         "isHorizontal": false
       }
     },
@@ -477,15 +477,15 @@
     "type": "Event",
     "cost": 2
   },
-  "J18": {
-    "id": "J18",
+  "DOT-104": {
+    "id": "DOT-104",
     "isToken": false,
     "face": {
       "front": {
         "name": "A Panic on Our Hands",
         "type": "Event",
         "cost": 4,
-        "image": "https://cdn.imgchest.com/files/b090670af5ca.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/APanicOnOurHands.jpg",
         "isHorizontal": false
       }
     },
@@ -493,15 +493,15 @@
     "type": "Event",
     "cost": 4
   },
-  "J20": {
-    "id": "J20",
+  "DOT-105": {
+    "id": "DOT-105",
     "isToken": false,
     "face": {
       "front": {
         "name": "Barracuda",
         "type": "Minion",
         "cost": 1,
-        "image": "https://cdn.imgchest.com/files/75c650ed6dfd.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Barracuda.jpg",
         "isHorizontal": false
       }
     },
@@ -509,15 +509,15 @@
     "type": "Minion",
     "cost": 1
   },
-  "J22": {
-    "id": "J22",
+  "DOT-106": {
+    "id": "DOT-106",
     "isToken": false,
     "face": {
       "front": {
         "name": "Man O' War",
         "type": "Minion",
         "cost": 2,
-        "image": "https://cdn.imgchest.com/files/469cddfea9c4.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/ManOWar.jpg",
         "isHorizontal": false
       }
     },
@@ -525,15 +525,15 @@
     "type": "Minion",
     "cost": 2
   },
-  "J25": {
-    "id": "J25",
+  "DOT-109": {
+    "id": "DOT-109",
     "isToken": false,
     "face": {
       "front": {
         "name": "Rogue Shark",
         "type": "Minion",
         "cost": 2,
-        "image": "https://cdn.imgchest.com/files/1ce1a4ecbee7.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/RogueShark.jpg",
         "isHorizontal": false
       }
     },
@@ -541,15 +541,15 @@
     "type": "Minion",
     "cost": 2
   },
-  "J28": {
-    "id": "J28",
+  "DOT-110": {
+    "id": "DOT-110",
     "isToken": false,
     "face": {
       "front": {
         "name": "Shark Spotter",
         "type": "Minion",
         "cost": 2,
-        "image": "https://cdn.imgchest.com/files/5b6af826a906.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/SharkSpotter.jpg",
         "isHorizontal": false
       }
     },
@@ -557,15 +557,15 @@
     "type": "Minion",
     "cost": 2
   },
-  "J31": {
-    "id": "J31",
+  "DOT-112": {
+    "id": "DOT-112",
     "isToken": false,
     "face": {
       "front": {
         "name": "Larry Vaughn, Misguided Mayor",
         "type": "Minion",
         "cost": 3,
-        "image": "https://cdn.imgchest.com/files/d2f4bfd981b5.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/LarryVaughn.jpg",
         "isHorizontal": false
       }
     },
@@ -573,15 +573,15 @@
     "type": "Minion",
     "cost": 3
   },
-  "J33": {
-    "id": "J33",
+  "DOT-119": {
+    "id": "DOT-119",
     "isToken": false,
     "face": {
       "front": {
         "name": "Ravenous Predator",
         "type": "Minion",
         "cost": 4,
-        "image": "https://cdn.imgchest.com/files/70729538e4d4.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/RavenousPredator.jpg",
         "isHorizontal": false
       }
     },
@@ -589,15 +589,15 @@
     "type": "Minion",
     "cost": 4
   },
-  "J38": {
-    "id": "J38",
+  "DOT-122": {
+    "id": "DOT-122",
     "isToken": false,
     "face": {
       "front": {
         "name": "Threat From Below",
         "type": "Minion",
         "cost": 5,
-        "image": "https://cdn.imgchest.com/files/64d3cdc29ff0.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/ThreatFromBelow.jpg",
         "isHorizontal": false
       }
     },
@@ -605,15 +605,15 @@
     "type": "Minion",
     "cost": 5
   },
-  "J39": {
-    "id": "J39",
+  "DOT-127": {
+    "id": "DOT-127",
     "isToken": false,
     "face": {
       "front": {
         "name": "Giant Octopus",
         "type": "Minion",
         "cost": 8,
-        "image": "https://cdn.imgchest.com/files/21d0fb279a4a.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/GiantOctopus.jpg",
         "isHorizontal": false
       }
     },
@@ -621,15 +621,15 @@
     "type": "Minion",
     "cost": 8
   },
-  "J42": {
-    "id": "J42",
+  "DOT-128": {
+    "id": "DOT-128",
     "isToken": false,
     "face": {
       "front": {
         "name": "Killer Whale",
         "type": "Minion",
         "cost": 8,
-        "image": "https://cdn.imgchest.com/files/ce45a292abfe.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/KillerWhale.jpg",
         "isHorizontal": false
       }
     },
@@ -637,15 +637,15 @@
     "type": "Minion",
     "cost": 8
   },
-  "J43": {
-    "id": "J43",
+  "DOT-136": {
+    "id": "DOT-136",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Shark!",
+        "name": "Shark in the Pond",
         "type": "Event",
         "cost": 1,
-        "image": "https://cdn.imgchest.com/files/2baeaad9aaed.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/SharkInThePond.jpg",
         "isHorizontal": false
       }
     },

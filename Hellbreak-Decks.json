@@ -20,95 +20,95 @@
     "Monster": [
       {
         "count": 1,
-        "id": "D1"
+        "id": "DOT-001"
       }
     ],
     "Minion": [
       {
         "count": 2,
-        "id": "D33"
+        "id": "DOT-152"
       },
       {
         "count": 2,
-        "id": "D4"
+        "id": "DOT-025"
       },
       {
         "count": 2,
-        "id": "D11"
+        "id": "DOT-034"
       },
       {
         "count": 3,
-        "id": "D36"
+        "id": "DOT-159"
       },
       {
         "count": 1,
-        "id": "D19"
+        "id": "DOT-044"
       },
       {
         "count": 2,
-        "id": "D17"
+        "id": "DOT-042"
       },
       {
         "count": 3,
-        "id": "D13"
+        "id": "DOT-039"
       },
       {
         "count": 1,
-        "id": "D16"
+        "id": "DOT-040"
       },
       {
         "count": 2,
-        "id": "D39"
+        "id": "DOT-161"
       },
       {
         "count": 1,
-        "id": "D10"
+        "id": "DOT-032"
       },
       {
         "count": 1,
-        "id": "D6"
+        "id": "DOT-027"
       },
       {
         "count": 6,
-        "id": "D30"
+        "id": "DOT-151"
       },
       {
         "count": 3,
-        "id": "D9"
+        "id": "DOT-028"
       },
       {
         "count": 2,
-        "id": "D40"
+        "id": "DOT-165"
       }
     ],
     "Event": [
       {
         "count": 2,
-        "id": "D42"
+        "id": "DOT-180"
       },
       {
         "count": 2,
-        "id": "D26"
+        "id": "DOT-053"
       },
       {
         "count": 3,
-        "id": "D22"
+        "id": "DOT-052"
       }
     ],
     "Asset": [
       {
         "count": 2,
-        "id": "D21"
+        "id": "DOT-049"
       }
     ],
     "Location": [
       {
         "count": 1,
-        "id": "D2"
+        "id": "DOT-015"
       },
       {
         "count": 1,
-        "id": "D3"
+        "id": "DOT-016"
       }
     ]
   }
@@ -134,87 +134,87 @@
     "Monster": [
       {
         "count": 1,
-        "id": "J1"
+        "id": "DOT-006"
       }
     ],
     "Minion": [
       {
         "count": 3,
-        "id": "J20"
+        "id": "DOT-105"
       },
       {
         "count": 2,
-        "id": "J4"
+        "id": "DOT-068"
       },
       {
         "count": 3,
-        "id": "J39"
+        "id": "DOT-127"
       },
       {
         "count": 1,
-        "id": "J42"
+        "id": "DOT-128"
       },
       {
         "count": 2,
-        "id": "J31"
+        "id": "DOT-112"
       },
       {
         "count": 3,
-        "id": "J22"
+        "id": "DOT-106"
       },
       {
         "count": 3,
-        "id": "J33"
+        "id": "DOT-119"
       },
       {
         "count": 3,
-        "id": "J25"
+        "id": "DOT-109"
       },
       {
         "count": 3,
-        "id": "J9"
+        "id": "DOT-080"
       },
       {
         "count": 3,
-        "id": "J28"
+        "id": "DOT-110"
       },
       {
         "count": 3,
-        "id": "J38"
+        "id": "DOT-122"
       },
       {
         "count": 3,
-        "id": "J8"
+        "id": "DOT-076"
       }
     ],
     "Event": [
       {
         "count": 2,
-        "id": "J18"
+        "id": "DOT-104"
       },
       {
         "count": 3,
-        "id": "J15"
+        "id": "DOT-098"
       },
       {
         "count": 1,
-        "id": "J43"
+        "id": "DOT-136"
       }
     ],
     "Asset": [
       {
         "count": 2,
-        "id": "J12"
+        "id": "DOT-092"
       }
     ],
     "Location": [
       {
         "count": 1,
-        "id": "J2"
+        "id": "DOT-013"
       },
       {
         "count": 1,
-        "id": "J3"
+        "id": "DOT-020"
       }
     ]
   }
