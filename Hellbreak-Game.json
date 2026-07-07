@@ -226,7 +226,7 @@
         "sectionsDict": {
           "Vault": {
               "isHidden": "no",
-              "height": "12",
+              "height": "8",
               "alignment": "CENTER",
               "opponentAlignment": false,
               "noAutoPayTo": true,
@@ -305,7 +305,7 @@
           },
           "Minions_L": {
             "isHidden": "no",
-            "height": "16",
+            "height": "15",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -320,7 +320,7 @@
           },
           "Minions_R": {
             "isHidden": "no",
-            "height": "16",
+            "height": "15",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
