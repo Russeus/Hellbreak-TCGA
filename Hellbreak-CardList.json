@@ -57,7 +57,7 @@
         "isHorizontal": false
       },
       "back": {
-        "name": "Jaws, Scourge of Amity Island",
+        "name": "The Bride, Kissed by Lightning",
         "type": "Monster",
         "cost": 0,
         "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TheBride_KBL_Unleashed.jpg",
@@ -65,6 +65,29 @@
       }
     },
     "name": "The Bride, Kissed by Lightning",
+    "type": "Monster",
+    "cost": 0
+  },
+  "DOT-009": {
+    "id": "DOT-009",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Headless Horseman, The Legend of Sleepy Hollow",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/HeadlessHorseman_Lurking.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Headless Horseman, The Legend of Sleepy Hollow",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/HeadlessHorseman_Unleashed.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Headless Horseman, The Legend of Sleepy Hollow",
     "type": "Monster",
     "cost": 0
   },
@@ -820,6 +843,22 @@
     "type": "Minion",
     "cost": 7
   },
+  "DOT-175": {
+    "id": "DOT-175",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tree of the Dead, Demonic Portal",
+        "type": "Asset",
+        "cost": 1,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/TreeOfTheDead.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tree of the Dead, Demonic Portal",
+    "type": "Asset",
+    "cost": 1
+  },
   "DOT-176": {
     "id": "DOT-176",
     "isToken": false,
@@ -834,6 +873,22 @@
     },
     "name": "Cosmic Ray Diffuser",
     "type": "Asset",
+    "cost": 2
+  },
+  "DOT-178": {
+    "id": "DOT-178",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Defenestration",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Defenestration.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Defenestration",
+    "type": "Event",
     "cost": 2
   },
   "DOT-179": {
@@ -867,5 +922,165 @@
     "name": "Ancient Wisdom",
     "type": "Event",
     "cost": 3
+  },
+  "DOT-181": {
+    "id": "DOT-181",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Murder Begets Murder",
+        "type": "Event",
+        "cost": 3,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/MurderBegetsMurder.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Murder Begets Murder",
+    "type": "Event",
+    "cost": 3
+  },
+  "DOT-187": {
+    "id": "DOT-187",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hooded Figure",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/HoodedFigure.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hooded Figure",
+    "type": "Minion",
+    "cost": 2
+  },
+  "DOT-188": {
+    "id": "DOT-188",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Malevolent Mist",
+        "type": "Minion",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/MalevolentMist.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Malevolent Mist",
+    "type": "Minion",
+    "cost": 2
+  },
+  "DOT-196": {
+    "id": "DOT-196",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Village Rifleman",
+        "type": "Minion",
+        "cost": 3,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/VillageRifleman.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Village Rifleman",
+    "type": "Minion",
+    "cost": 3
+  },
+  "DOT-198": {
+    "id": "DOT-198",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Daredevil, Infernal Steed",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Daredevil.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Daredevil, Infernal Steed",
+    "type": "Minion",
+    "cost": 4
+  },
+  "DOT-199": {
+    "id": "DOT-199",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dark Avenger",
+        "type": "Minion",
+        "cost": 4,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/DarkAvenger.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dark Avenger",
+    "type": "Minion",
+    "cost": 4
+  },
+  "DOT-203": {
+    "id": "DOT-203",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lady Van Tassel, Vengeful Witch",
+        "type": "Minion",
+        "cost": 5,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/LadyVanTassel.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lady Van Tassel, Vengeful Witch",
+    "type": "Minion",
+    "cost": 5
+  },
+  "DOT-204": {
+    "id": "DOT-204",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Spectral Assassin",
+        "type": "Minion",
+        "cost": 5,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/SpectralAssassin.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spectral Assassin",
+    "type": "Minion",
+    "cost": 5
+  },
+  "DOT-212": {
+    "id": "DOT-212",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Warding Sign",
+        "type": "Asset",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/WardingSign.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Warding Sign",
+    "type": "Asset",
+    "cost": 2
+  },
+  "DOT-219": {
+    "id": "DOT-219",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Intimidate",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0713/2115/7771/files/Intimidate.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Intimidate",
+    "type": "Event",
+    "cost": 2
   }
 }
