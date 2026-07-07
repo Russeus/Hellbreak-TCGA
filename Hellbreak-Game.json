@@ -110,9 +110,19 @@
                     {
                       "section": "Monster",
                       "style": {
-                        "position": "absolute",
                         "top": "0"
                       }
+                    },
+                    {
+                      "direction": "row",
+                      "style": {
+                        "justifyContent": "center"
+                      },
+                      "content": [
+                        { "section": "Blood" },
+                        { "section": "Malice" }
+                      ],
+                      "isSymetricalForOpponents": false
                     }
                   ],
                   "isSymetricalForOpponents": false
@@ -175,17 +185,6 @@
                       },
                       "content": [
                         { "section": "Draw" }
-                      ],
-                      "isSymetricalForOpponents": false
-                    },
-                    {
-                      "direction": "row",
-                      "style": {
-                        "justifyContent": "center"
-                      },
-                      "content": [
-                        { "section": "Blood" },
-                        { "section": "Malice" }
                       ],
                       "isSymetricalForOpponents": false
                     },
