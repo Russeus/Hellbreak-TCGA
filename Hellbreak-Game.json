@@ -273,7 +273,7 @@
           },
           "Monster": {
             "isHidden": "opponent-only",
-            "height": "MEDIUM",
+            "height": "24",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
