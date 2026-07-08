@@ -77,13 +77,13 @@
               "content": [
                 {
                   "direction": "column",
-                  "style": { "height": "24.25vh", "margin": "0.25vh" },
+                  "style": { "height": "23.25vh", "margin": "0.25vh" },
                   "content": [
                     {
                       "section": "Opp_Location",
                         "style": {
                             "width": "30vh",
-                            "height": "12vh",
+                            "height": "11vh",
                             "scale": "0.68",
                             "position": "absolute",
                             "top": "0",
@@ -108,24 +108,31 @@
                   },
                   "content": [
                     {
-                      "section": "Monster",
+                      "section": "Monster"
+                    },
+                    {
+                      "direction": "row",
                       "style": {
-                        "position": "absolute",
-                        "top": "0"
-                      }
+                        "justifyContent": "center"
+                      },
+                      "content": [
+                        { "section": "Blood" },
+                        { "section": "Malice" }
+                      ],
+                      "isSymetricalForOpponents": false
                     }
                   ],
                   "isSymetricalForOpponents": false
                 },
                 {
                   "direction": "column",
-                  "style": { "height": "24.25vh", "margin": "0.25vh" },
+                  "style": { "height": "23.25vh", "margin": "0.25vh" },
                   "content": [
                     {
                       "section": "Location",
                         "style": {
                             "width": "30vh",
-                            "height": "12vh",
+                            "height": "11vh",
                             "scale": "0.68",
                             "position": "absolute",
                             "top": "0",
@@ -164,7 +171,6 @@
                 {
                   "direction": "column",
                   "style": {
-                    "marginTop": "-6vh",
                     "justifyContent":"center"
                   },
                   "content": [
@@ -174,18 +180,7 @@
                         "justifyContent": "center"
                       },
                       "content": [
-                        { "section": "Draw" }
-                      ],
-                      "isSymetricalForOpponents": false
-                    },
-                    {
-                      "direction": "row",
-                      "style": {
-                        "justifyContent": "center"
-                      },
-                      "content": [
-                        { "section": "Blood" },
-                        { "section": "Malice" }
+                        { "section": "Vault" }
                       ],
                       "isSymetricalForOpponents": false
                     },
@@ -196,7 +191,8 @@
                       },
                       "content": [
                         { "section": "Aspect1" },
-                        { "section": "Aspect2" }
+                        { "section": "Aspect2" },
+                        { "section": "Draw" }
                       ],
                       "isSymetricalForOpponents": false
                     }
@@ -228,9 +224,25 @@
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
+          "Vault": {
+              "isHidden": "no",
+              "height": "8",
+              "alignment": "CENTER",
+              "opponentAlignment": false,
+              "noAutoPayTo": true,
+              "isHorizontalAllowed": true,
+              "displayedTitle": "Vault",
+              "noQuickActions": true,
+              "enterTapped": false,
+              "enterSpun": false,
+              "isGroupForbidden": false,
+              "keepTappedNewTurn": false,
+              "showHiddenCardInHistory": false,
+              "reverseZOrder": true
+          },
           "Location": {
               "isHidden": "opponent-only",
-              "height": "12",
+              "height": "11",
               "alignment": "CENTER",
               "opponentAlignment": false,
               "noAutoPayTo": true,
@@ -256,7 +268,7 @@
           },
           "Opp_Location": {
             "isHidden": "no",
-            "height": "12",
+            "height": "11",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -274,7 +286,7 @@
           },
           "Monster": {
             "isHidden": "opponent-only",
-            "height": "MEDIUM",
+            "height": "17",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
