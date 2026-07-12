@@ -22,6 +22,29 @@
     "type": "Monster",
     "cost": 0
   },
+  "DOT-005": {
+    "id": "DOT-005",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Colossal Death Angel, Sound Hunter",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/62c05f7ea999.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Colossal Death Angel, Sound Hunter",
+        "type": "Monster",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/7e38379fbb48.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Colossal Death Angel, Sound Hunter",
+    "type": "Monster",
+    "cost": 0
+  },
   "DOT-006": {
     "id": "DOT-006",
     "isToken": false,
